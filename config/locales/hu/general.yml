@@ -1,4 +1,4 @@
-en:
+hu:
   account:
     show:
       change_credentials_link: Change my credentials
@@ -249,7 +249,7 @@ en:
       text_sign_in: login
       text_sign_up: sign up
       title: How I can comment this document?
-  locale: English
+  locale: Magyar
   notifications:
     index:
       empty_notifications: You don't have new notifications.

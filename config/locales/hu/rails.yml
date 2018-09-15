@@ -18,56 +18,56 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-en:
+hu:
   date:
     abbr_day_names:
-    - Sun
-    - Mon
-    - Tue
-    - Wed
-    - Thu
-    - Fri
-    - Sat
+    - v.
+    - h.
+    - k.
+    - sze.
+    - cs.
+    - p.
+    - szo.
     abbr_month_names:
     -
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - Jun
-    - Jul
-    - Aug
-    - Sep
-    - Oct
-    - Nov
-    - Dec
+    - jan.
+    - febr.
+    - márc.
+    - ápr.
+    - máj.
+    - jún.
+    - júl.
+    - aug.
+    - szept.
+    - okt.
+    - nov.
+    - dec.
     day_names:
-    - Sunday
-    - Monday
-    - Tuesday
-    - Wednesday
-    - Thursday
-    - Friday
-    - Saturday
+    - vasárnap
+    - hétfő
+    - kedd
+    - szerda
+    - csütörtök
+    - péntek
+    - szombat
     formats:
-      default: "%Y-%m-%d"
-      long: "%B %d, %Y"
-      short: "%b %d"
+      default: "%Y.%m.%d."
+      long: "%Y. %B %e."
+      short: "%b %e."
     month_names:
     -
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
+    - január
+    - február
+    - március
+    - április
+    - május
+    - június
+    - július
+    - augusztus
+    - szeptember
+    - október
+    - november
+    - december
     order:
     - :year
     - :month
@@ -75,131 +75,131 @@ en:
   datetime:
     distance_in_words:
       about_x_hours:
-        one: about 1 hour
-        other: about %{count} hours
+        one: kb. 1 órája
+        other: kb. %{count} órája
       about_x_months:
-        one: about 1 month
-        other: about %{count} months
+        one: kb. 1 hónapja
+        other: kb. %{count} hónapja
       about_x_years:
-        one: about 1 year
-        other: about %{count} years
+        one: kb. 1 éve
+        other: kb. %{count} éve
       almost_x_years:
-        one: almost 1 year
-        other: almost %{count} years
-      half_a_minute: half a minute
+        one: majdnem 1 éve
+        other: majdnem %{count} éve
+      half_a_minute: fél perce
       less_than_x_minutes:
-        one: less than a minute
-        other: less than %{count} minutes
+        one: kevesebb, mint 1 perce
+        other: kevesebb, mint %{count} perce
       less_than_x_seconds:
-        one: less than 1 second
-        other: less than %{count} seconds
+        one: kevesebb, mint 1 másodperce
+        other: kevesebb, mint %{count} másodperce
       over_x_years:
-        one: over 1 year
-        other: over %{count} years
+        one: több, mint 1 éve
+        other: több, mint %{count} éve
       x_days:
-        one: 1 day
-        other: "%{count} days"
+        one: 1 napja
+        other: "%{count} napja"
       x_minutes:
-        one: 1 minute
-        other: "%{count} minutes"
+        one: 1 perce
+        other: "%{count} perce"
       x_months:
-        one: 1 month
-        other: "%{count} months"
+        one: 1 hónapja
+        other: "%{count} hónapja"
       x_years:
-        one: 1 year
-        other: "%{count} years"
+        one: 1 éve
+        other: "%{count} éve"
       x_seconds:
-        one: 1 second
-        other: "%{count} seconds"
+        one: 1 másodperce
+        other: "%{count} másodperce"
     prompts:
-      day: Day
-      hour: Hour
-      minute: Minute
-      month: Month
-      second: Seconds
-      year: Year
+      day: Nap
+      hour: Óra
+      minute: Perc
+      month: Hónap
+      second: Másodperc
+      year: Év
   errors:
     format: "%{attribute} %{message}"
     messages:
-      accepted: must be accepted
-      blank: can't be blank
-      present: must be blank
-      confirmation: doesn't match %{attribute}
-      empty: can't be empty
-      equal_to: must be equal to %{count}
-      even: must be even
-      exclusion: is reserved
-      greater_than: must be greater than %{count}
-      greater_than_or_equal_to: must be greater than or equal to %{count}
-      inclusion: is not included in the list
-      invalid: is invalid
-      less_than: must be less than %{count}
-      less_than_or_equal_to: must be less than or equal to %{count}
-      model_invalid: "Validation failed: %{errors}"
-      not_a_number: is not a number
-      not_an_integer: must be an integer
-      odd: must be odd
-      required: must exist
-      taken: has already been taken
+      accepted: nincs elfogadva
+      blank: nincs megadva
+      present: üresen kell hagyni
+      confirmation: nem egyezik
+      empty: nincs megadva
+      equal_to: pontosan %{count} kell legyen
+      even: páros kell legyen
+      exclusion: nem elérhető
+      greater_than: nagyobb kell legyen, mint %{count}
+      greater_than_or_equal_to: legalább %{count} kell legyen
+      inclusion: nincs a listában
+      invalid: nem megfelelő
+      less_than: kevesebb, mint %{count} kell legyen
+      less_than_or_equal_to: legfeljebb %{count} lehet
+      model_invalid: "ellenőrzési hiba: %{errors}"
+      not_a_number: nem szám
+      not_an_integer: egész számnak kell lennie
+      odd: páratlan kell legyen
+      required: kötelező megadni
+      taken: már foglalt
       too_long:
-        one: is too long (maximum is 1 character)
-        other: is too long (maximum is %{count} characters)
+        one: túl hosszú (nem lehet több 1 karakternél)
+        other: túl hosszú (nem lehet több %{count} karakternél)
       too_short:
-        one: is too short (minimum is 1 character)
-        other: is too short (minimum is %{count} characters)
+        one: túl rövid (legalább 1 karakter kell legyen)
+        other: túl rövid (legalább %{count} karakter kell legyen)
       wrong_length:
-        one: is the wrong length (should be 1 character)
-        other: is the wrong length (should be %{count} characters)
-      other_than: must be other than %{count}
+        one: nem megfelelő hosszúságú (1 karakter szükséges)
+        other: nem megfelelő hosszúságú (%{count} karakter szükséges)
+      other_than: nem lehet %{count} hosszúságú
     template:
-      body: 'There were problems with the following fields:'
+      body: 'Problémás mezők:'
       header:
-        one: 1 error prohibited this %{model} from being saved
-        other: "%{count} errors prohibited this %{model} from being saved"
+        one: '1 hiba miatt nem menthető a következő: %{model}'
+        other: "%{count} hiba miatt nem menthető a következő: %{model}"
   helpers:
     select:
-      prompt: Please select
+      prompt: Válasszon
     submit:
-      create: Create %{model}
-      submit: Save %{model}
-      update: Update %{model}
+      create: Új %{model}
+      submit: "%{model} mentése"
+      update: "%{model} módosítása"
   number:
     currency:
       format:
-        delimiter: ","
-        format: "%u%n"
-        precision: 2
-        separator: "."
-        significant: false
-        strip_insignificant_zeros: false
-        unit: "$"
+        delimiter: ''
+        format: "%n %u"
+        precision: 0
+        separator: ","
+        significant: true
+        strip_insignificant_zeros: true
+        unit: Ft
     format:
-      delimiter: ","
-      precision: 3
-      separator: "."
-      significant: false
-      strip_insignificant_zeros: false
+      delimiter: " "
+      precision: 2
+      separator: ","
+      significant: true
+      strip_insignificant_zeros: true
     human:
       decimal_units:
         format: "%n %u"
         units:
-          billion: Billion
-          million: Million
-          quadrillion: Quadrillion
-          thousand: Thousand
-          trillion: Trillion
+          billion: milliárd
+          million: millió
+          quadrillion: billiárd
+          thousand: ezer
+          trillion: billió
           unit: ''
       format:
         delimiter: ''
-        precision: 3
+        precision: 1
         significant: true
         strip_insignificant_zeros: true
       storage_units:
         format: "%n %u"
         units:
           byte:
-            one: Byte
-            other: Bytes
+            one: bájt
+            other: bájt
           gb: GB
           kb: KB
           mb: MB
@@ -213,15 +213,15 @@ en:
         delimiter: ''
   support:
     array:
-      last_word_connector: ", and "
-      two_words_connector: " and "
+      last_word_connector: " és "
+      two_words_connector: " és "
       words_connector: ", "
   time:
-    am: am
+    am: de.
     formats:
       datetime: "%Y-%m-%d %H:%M:%S"
-      default: "%a, %d %b %Y %H:%M:%S %z"
-      long: "%B %d, %Y %H:%M"
-      short: "%d %b %H:%M"
+      default: "%Y. %b %e., %H:%M"
+      long: "%Y. %B %e., %A, %H:%M"
+      short: "%b %e., %H:%M"
       api: "%Y-%m-%d %H"
-    pm: pm
+    pm: du.

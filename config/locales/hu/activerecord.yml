@@ -344,4 +344,4 @@ hu:
         restrict_dependent_destroy:
           has_one: Nem lehet törölni a rekordot, mert létezik egy függő %{record}
           has_many: Nem lehet törölni a rekordot, mert létezik %{record}
-...
+          
