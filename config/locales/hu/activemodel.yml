@@ -2,21 +2,21 @@ en:
   activemodel:
     models:
       verification:
-        residence: "Residence"
+        residence: "Lakcím"
         sms: "SMS"
     attributes:
       verification:
         residence:
-          document_type: "Document type"
-          document_number: "Document number (including letters)"
-          date_of_birth: "Date of birth"
-          postal_code: "Postcode"
+          document_type: "Dokumentum típus"
+          document_number: "Dokumentum azonosító (betűket is tartalmazhat)"
+          date_of_birth: "Születési dátum"
+          postal_code: "Irányítószám"
         sms:
-          phone: "Telephone"
-          confirmation_code: "Confirmation code"
+          phone: "Telefon"
+          confirmation_code: "Megerősítő kód"
         email:
           recipient: "Email"
       officing/residence:
-        document_type: "Document type"
-        document_number: "Document number (including letters)"
-        year_of_birth: "Year born"
+        document_type: "Dokumentum típus"
+        document_number: "Dokumentum azonosító (betűket is tartalmazhat)"
+        year_of_birth: "Születési év"

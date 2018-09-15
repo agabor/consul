@@ -1,341 +1,347 @@
-en:
+---
+hu:
   activerecord:
     models:
       activity:
-        one: "activity"
-        other: "activities"
+        one: Tevékenység
+        other: Tevékenységek
       budget:
-        one: "Budget"
-        other: "Budgets"
+        one: Költségvetés
+        other: Költségvetések
       budget/investment:
-        one: "Investment"
-        other: "Investments"
+        one: Befektetés
+        other: Befektetések
       budget/investment/milestone:
-        one: "milestone"
-        other: "milestones"
+        one: Mérföldkő
+        other: Mérföldkövek
       budget/investment/status:
-        one: "Investment status"
-        other: "Investment statuses"
+        one: Befektetés állapota
+        other: Befektetés állapotok
       comment:
-        one: "Comment"
-        other: "Comments"
+        one: Megjegyzés
+        other: Megjegyzések
       debate:
-        one: "Debate"
-        other: "Debates"
+        one: Vita
+        other: Viták
       tag:
-        one: "Tag"
-        other: "Tags"
+        one: Címke
+        other: Címkék
       user:
-        one: "User"
-        other: "Users"
+        one: Felhasználó
+        other: Felhasználók
       moderator:
-        one: "Moderator"
-        other: "Moderators"
+        one: Moderátor
+        other: Moderátorok
       administrator:
-        one: "Administrator"
-        other: "Administrators"
+        one: Adminisztrátor
+        other: Adminisztrátorok
       valuator:
-        one: "Valuator"
-        other: "Valuators"
+        one: Értékelő
+        other: Értékelők
       valuator_group:
-        one: "Valuator group"
-        other: "Valuator groups"
+        one: Értékelő csoport
+        other: Értékelő csoportok
       manager:
-        one: "Manager"
-        other: "Managers"
+        one: Menedzser
+        other: Menedzserek
       newsletter:
-        one: "Newsletter"
-        other: "Newsletters"
+        one: Hírlevél
+        other: Hírlevelek
       vote:
-        one: "Vote"
-        other: "Votes"
+        one: Szavazat
+        other: Szavazatok
       organization:
-        one: "Organisation"
-        other: "Organisations"
+        one: Szervezet
+        other: Szervezetek
       poll/booth:
-        one: "booth"
-        other: "booths"
+        one: fülke
+        other: fülkék
       poll/officer:
-        one: "officer"
-        other: "officers"
+        one: tisztviselő
+        other: tisztviselők
       proposal:
-        one: "Citizen proposal"
-        other: "Citizen proposals"
+        one: Lakossági javaslat
+        other: Lakossági javaslatok
       spending_proposal:
-        one: "Investment project"
-        other: "Investment projects"
+        one: Befektetési projekt
+        other: Befektetési projektek
       site_customization/page:
-        one: Custom page
-        other: Custom pages
+        one: Egyéni oldal
+        other: Egyéni oldalak
       site_customization/image:
-        one: Custom image
-        other: Custom images
+        one: Egyéni kép
+        other: Egyéni képek
       site_customization/content_block:
-        one: Custom content block
-        other: Custom content blocks
+        one: Egyéni tartalom blokk
+        other: Egyéni tartalom blokkok
       legislation/process:
-        one: "Process"
-        other: "Processes"
+        one: Folyamat
+        other: Folyamatok
       legislation/draft_versions:
-        one: "Draft version"
-        other: "Draft versions"
+        one: Vázlat verzió
+        other: Vázlat verziók
       legislation/draft_texts:
-          one: "Draft"
-          other: "Drafts"
+        one: Vázlat
+        other: Vázlatok
       legislation/questions:
-        one: "Question"
-        other: "Questions"
+        one: Kérdés
+        other: Kérdések
       legislation/question_options:
-        one: "Question option"
-        other: "Question options"
+        one: Kérdés opció
+        other: Kérdés opciók
       legislation/answers:
-        one: "Answer"
-        other: "Answers"
+        one: Válasz
+        other: Válaszok
       documents:
-        one: "Document"
-        other: "Documents"
+        one: Dokumentum
+        other: Dokumentumok
       images:
-        one: "Image"
-        other: "Images"
+        one: Kép
+        other: Képek
       topic:
-        one: "Topic"
-        other: "Topics"
+        one: Téma
+        other: Témák
       poll:
-        one: "Poll"
-        other: "Polls"
+        one: Szavazás
+        other: Szavazások
       proposal_notification:
-        one: "Proposal notification"
-        other: "Proposal notifications"
+        one: Javaslat értesítés
+        other: Javaslat értesítések
     attributes:
       budget:
-        name: "Name"
-        description_accepting: "Description during Accepting phase"
-        description_reviewing: "Description during Reviewing phase"
-        description_selecting: "Description during Selecting phase"
-        description_valuating: "Description during Valuating phase"
-        description_balloting: "Description during Balloting phase"
-        description_reviewing_ballots: "Description during Reviewing Ballots phase"
-        description_finished: "Description when the budget is finished"
-        phase: "Phase"
-        currency_symbol: "Currency"
+        name: Név
+        description_accepting: Leírás az Elfogadó fázis alatt
+        description_reviewing: Leírás a fázis felülvizsgálata során
+        description_selecting: Leírás a fázis kiválasztásakor
+        description_valuating: Leírás az értékelési fázis során
+        description_balloting: Leírás a szavazás során
+        description_reviewing_ballots: Leírás a szavazólapok áttekintése során
+        description_finished: Leírás, amikor a költségvetés elkészült
+        phase: Fázis
+        currency_symbol: Valuta
       budget/investment:
-        heading_id: "Heading"
-        title: "Title"
-        description: "Description"
-        external_url: "Link to additional documentation"
-        administrator_id: "Administrator"
-        location: "Location (optional)"
-        organization_name: "If you are proposing in the name of a collective/organization, or on behalf of more people, write its name"
-        image: "Proposal descriptive image"
-        image_title: "Image title"
+        heading_id: Cím
+        title: Cím
+        description: Leírás
+        external_url: Link a további dokumentációhoz
+        administrator_id: Adminisztrátor
+        location: Hely (opcionális)
+        organization_name: Ha szervezet vagy több ember nevében tesz javaslatot, írja
+          be a nevét
+        image: A javaslat leíró kép
+        image_title: A kép címe
       budget/investment/milestone:
-        status_id: "Current investment status (optional)"
-        title: "Title"
-        description: "Description (optional if there's an status assigned)"
-        publication_date: "Publication date"
+        status_id: Aktuális befektetési státusz (opcionális)
+        title: Cím
+        description: Leírást (opcionális, ha van egy hozzárendelt állapot)
+        publication_date: Közzététel dátuma
       budget/investment/status:
-        name: "Name"
-        description: "Description (optional)"
+        name: Név
+        description: Leírás (opcionális)
       budget/heading:
-        name: "Heading name"
-        price: "Price"
-        population: "Population"
+        name: Címsor neve
+        price: Ár
+        population: Népesség
       comment:
-        body: "Comment"
-        user: "User"
+        body: Hozzászólás
+        user: Felhasználó
       debate:
-        author: "Author"
-        description: "Opinion"
-        terms_of_service: "Terms of service"
-        title: "Title"
+        author: Szerző
+        description: Vélemény
+        terms_of_service: Szolgáltatás feltételei
+        title: Cím
       proposal:
-        author: "Author"
-        title: "Title"
-        question: "Question"
-        description: "Description"
-        terms_of_service: "Terms of service"
+        author: Szerző
+        title: Cím
+        question: Kérdés
+        description: Leírás
+        terms_of_service: Szolgáltatás feltételei
       user:
-        login: "Email or username"
-        email: "Email"
-        username: "Username"
-        password_confirmation: "Password confirmation"
-        password: "Password"
-        current_password: "Current password"
-        phone_number: "Phone number"
-        official_position: "Official position"
-        official_level: "Official level"
-        redeemable_code: "Verification code received via email"
+        login: E-mail vagy felhasználónév
+        email: Email
+        username: Felhasználónév
+        password_confirmation: Jelszó megerősítése
+        password: Jelszó
+        current_password: Jelenlegi jelszó
+        phone_number: Telefonszám
+        official_position: Hivatalos beosztás
+        official_level: Hivatalos szint
+        redeemable_code: E-mailben kapott ellenőrző kód
       organization:
-        name: "Name of organisation"
-        responsible_name: "Person responsible for the group"
+        name: A szervezet neve
+        responsible_name: A csoportért felelős személy
       spending_proposal:
-        administrator_id: "Administrator"
-        association_name: "Association name"
-        description: "Description"
-        external_url: "Link to additional documentation"
-        geozone_id: "Scope of operation"
-        title: "Title"
+        administrator_id: Adminisztrátor
+        association_name: Egyesület neve
+        description: Leírás
+        external_url: Link a további dokumentációhoz
+        geozone_id: Működési kör
+        title: Cím
       poll:
-        name: "Name"
-        starts_at: "Start Date"
-        ends_at: "Closing Date"
-        geozone_restricted: "Restricted by geozone"
-        summary: "Summary"
-        description: "Description"
+        name: Név
+        starts_at: Kezdő dátum
+        ends_at: Zárás dátuma
+        geozone_restricted: A geozon által korlátozva
+        summary: összefoglalás
+        description: Leírás
       poll/question:
-        title: "Question"
-        summary: "Summary"
-        description: "Description"
-        external_url: "Link to additional documentation"
+        title: Kérdés
+        summary: összefoglalás
+        description: Leírás
+        external_url: Link a további dokumentációhoz
       signature_sheet:
-        signable_type: "Signable type"
-        signable_id: "Signable ID"
-        document_numbers: "Documents numbers"
+        signable_type: Jelezhető típus
+        signable_id: Bejelentkezési azonosító
+        document_numbers: Dokumentumszámok
       site_customization/page:
-        content: Content
-        created_at: Created at
-        subtitle: Subtitle
-        slug: Slug
-        status: Status
-        title: Title
-        updated_at: Updated at
-        more_info_flag: Show in help page
-        print_content_flag: Print content button
-        locale: Language
+        content: Tartalom
+        created_at: 'Létrehozva:'
+        subtitle: Alcím
+        slug: Meztelen csiga
+        status: Állapot
+        title: Cím
+        updated_at: 'Frissítve:'
+        more_info_flag: A súgóoldal megjelenítése
+        print_content_flag: A tartalom nyomtatása gomb
+        locale: Nyelv
       site_customization/image:
-        name: Name
-        image: Image
+        name: Név
+        image: Kép
       site_customization/content_block:
-        name: Name
-        locale: locale
-        body: Body
+        name: Név
+        locale: nyelv
+        body: Test
       legislation/process:
-        title: Process Title
-        summary: Summary
-        description: Description
-        additional_info: Additional info
-        start_date: Start date
-        end_date: End date
-        debate_start_date: Debate start date
-        debate_end_date: Debate end date
-        draft_publication_date: Draft publication date
-        allegations_start_date: Allegations start date
-        allegations_end_date: Allegations end date
-        result_publication_date: Final result publication date
+        title: Folyamat címe
+        summary: összefoglalás
+        description: Leírás
+        additional_info: További információ
+        start_date: Kezdés dátuma
+        end_date: Befejezés dátuma
+        debate_start_date: Vita kezdő időpontja
+        debate_end_date: Vita befejezési időpontja
+        draft_publication_date: Vázlat közzététel dátuma
+        allegations_start_date: Az állítások kezdő időpontja
+        allegations_end_date: Az állítások befejezési időpontja
+        result_publication_date: A végeredmény közzétételi dátuma
       legislation/draft_version:
-        title: Version title
-        body: Text
-        changelog: Changes
-        status: Status
-        final_version: Final version
+        title: Verzió címe
+        body: Szöveg
+        changelog: Változtatások
+        status: Állapot
+        final_version: Végleges változat
       legislation/question:
-        title: Title
-        question_options: Options
+        title: Cím
+        question_options: Lehetőségek
       legislation/question_option:
-        value: Value
+        value: Érték
       legislation/annotation:
-        text: Comment
+        text: Megjegyzés
       document:
-        title: Title
-        attachment: Attachment
+        title: Cím
+        attachment: Melléklet
       image:
-        title: Title
+        title: Cím
         attachment: Attachment
       poll/question/answer:
-        title: Answer
-        description: Description
+        title: Válasz
+        description: Leírás
       poll/question/answer/video:
-        title: Title
-        url: External video
+        title: Cím
+        url: Külső videó
       newsletter:
-        segment_recipient: Recipients
-        subject: Subject
-        from: From
-        body: Email content
+        segment_recipient: A címzettek
+        subject: Tantárgy
+        from: Feladó
+        body: E-mail tartalma
       widget/card:
-        label: Label (optional)
-        title: Title
-        description: Description
-        link_text: Link text
+        label: Címke (opcionális)
+        title: Cím
+        description: Leírás
+        link_text: Link szöveg
         link_url: Link URL
       widget/feed:
-        limit: Number of items
+        limit: Darabszám
     errors:
       models:
         user:
           attributes:
             email:
-              password_already_set: "This user already has a password"
+              password_already_set: Ez a felhasználó már rendelkezik jelszóval
         debate:
           attributes:
             tag_list:
-              less_than_or_equal_to: "tags must be less than or equal to %{count}"
+              less_than_or_equal_to: a címkék nem lehetnek nagyobbak, mint %{count}
         direct_message:
           attributes:
             max_per_day:
-              invalid: "You have reached the maximum number of private messages per day"
+              invalid: Elérte a privát üzenetek maximális napi számát
         image:
           attributes:
             attachment:
-              min_image_width: "Image Width must be at least %{required_min_width}px"
-              min_image_height: "Image Height must be at least %{required_min_height}px"
+              min_image_width: A kép szélességének legalább %{required_min_width}px-nek
+                kell lennie
+              min_image_height: A kép magasságának legalább %{required_min_height}px-nek
+                kell lennie
         newsletter:
           attributes:
             segment_recipient:
-              invalid: "The user recipients segment is invalid"
+              invalid: A felhasználói címzettek szegmense érvénytelen
         admin_notification:
           attributes:
             segment_recipient:
-              invalid: "The user recipients segment is invalid"
+              invalid: A felhasználói címzettek szegmense érvénytelen
         map_location:
           attributes:
             map:
-              invalid: Map location can't be blank. Place a marker or select the checkbox if geolocalization is not needed
+              invalid: A térkép helye nem lehet üres. Helyezzen el egy jelölőt, vagy
+                jelölje be a jelölőnégyzetet, ha nincs szükség földrajzi helyre
         poll/voter:
           attributes:
             document_number:
-              not_in_census: "Document not in census"
-              has_voted: "User has already voted"
+              not_in_census: A dokumentum nem szerepel a cenzusban
+              has_voted: A felhasználó már szavazott
         legislation/process:
           attributes:
             end_date:
-              invalid_date_range: must be on or after the start date
+              invalid_date_range: a kezdő dátumon vagy után kell lennie
             debate_end_date:
-              invalid_date_range: must be on or after the debate start date
+              invalid_date_range: a vita kezdetén vagy azt követően kell lennie
             allegations_end_date:
-              invalid_date_range: must be on or after the allegations start date
+              invalid_date_range: az állítások kezdetén vagy azt követően kell lennie
         proposal:
           attributes:
             tag_list:
-              less_than_or_equal_to: "tags must be less than or equal to %{count}"
+              less_than_or_equal_to: a címkék nem lehet nagyobbak, mint %{count}
         budget/investment:
           attributes:
             tag_list:
-              less_than_or_equal_to: "tags must be less than or equal to %{count}"
+              less_than_or_equal_to: a címkék nem lehet nagyobbak, mint %{count}
         proposal_notification:
           attributes:
             minimum_interval:
-              invalid: "You have to wait a minium of %{interval} days between notifications"
+              invalid: Az értesítések között %{interval} napot kell várnia
         signature:
           attributes:
             document_number:
-              not_in_census: 'Not verified by Census'
-              already_voted: 'Already voted this proposal'
+              not_in_census: A cenzus nem ellenőrizte
+              already_voted: Már szavazott erre a javaslatra
         site_customization/page:
           attributes:
             slug:
-              slug_format: "must be letters, numbers, _ and -"
+              slug_format: betűket, számokat, _ és - karaktereket tartalmazhat
         site_customization/image:
           attributes:
             image:
-              image_width: "Width must be %{required_width}px"
-              image_height: "Height must be %{required_height}px"
+              image_width: A szélesség %{required_width}px kell legyen
+              image_height: A magasság %{required_height}px kell legyen
         comment:
           attributes:
             valuation:
-              cannot_comment_valuation: 'You cannot comment a valuation'
+              cannot_comment_valuation: Nem tehetsz megjegyzést egy értékeléssel kapcsolatban
       messages:
-        record_invalid: "Validation failed: %{errors}"
+        record_invalid: 'Érvényesítés sikertelen: %{errors}'
         restrict_dependent_destroy:
-          has_one: "Cannot delete record because a dependent %{record} exists"
-          has_many: "Cannot delete record because dependent %{record} exist"
+          has_one: Nem lehet törölni a rekordot, mert létezik egy függő %{record}
+          has_many: Nem lehet törölni a rekordot, mert létezik %{record}
+...
