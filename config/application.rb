@@ -19,6 +19,7 @@ module Consul
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
+    config.web_console.whitelisted_ips = '172.18.0.1'
     config.i18n.default_locale = :hu
     config.i18n.available_locales = [:hu, :en]
     config.i18n.fallbacks = {'hu' => 'en'}
