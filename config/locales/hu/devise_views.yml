@@ -4,6 +4,10 @@ hu:
     confirmations:
       new:
         email_label: Email
+    mailer:
+      confirmation_instructions:
+        title: Üdvözöljük
+        welcome: Üdvözöljük
     organizations:
       registrations:
         new:

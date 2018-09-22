@@ -5,6 +5,9 @@ hu:
       edit:
         password:
           password: Jelszó
+    dashboard:
+      index:
+        title: Menedzsment
     document_number: Dokumentum szám
     document_type_label: Dokumentum típus
     document_verifications:
@@ -17,5 +20,5 @@ hu:
     username_label: Felhasználónév
     user_invites:
       new:
-        label: e-mailek
+        label: E-mailek
 ...

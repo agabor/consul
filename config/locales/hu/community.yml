@@ -1,6 +1,8 @@
 ---
 hu:
   community:
+    sidebar:
+      title: Közösség
     show:
       sidebar:
         new_topic: Téma létrehozása

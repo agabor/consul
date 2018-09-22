@@ -2,6 +2,7 @@
 hu:
   account:
     show:
+      notifications: Értesítések
       phone_number_label: Telefonszám
       user_permission_info: A fiókjával ...
       username_label: Felhasználónév
@@ -12,6 +13,10 @@ hu:
   comments_helper:
     comment_link: Hozzászólás
   debates:
+    index:
+      title: Viták
+      section_header:
+        title: Viták
     show:
       author: Szerző
   form:
@@ -21,24 +26,44 @@ hu:
     image: Kép
   layouts:
     header:
+      debates: Viták
+      management: Menedzsment
       help: Segítség
+      proposals: Javaslatok
+      budgets: Részvételi költségvetés
       spending_proposals: Kiadási javaslatok
+      notification_item:
+        notifications: Értesítések
+  locale: Magyar
+  notifications:
+    index:
+      title: Értesítések
   map:
     select_district: Működési kör
   proposals:
     form:
       geozone: Működési kör
       proposal_external_url: Link a további dokumentációhoz
+    index:
+      title: Javaslatok
+      section_header:
+        title: Javaslatok
     show:
+      notifications_tab: Értesítések
       title_video_url: Külső videó
       author: Szerző
   polls:
+    index:
+      title: Szavazás
     show:
       videos: Külső videó
+      results:
+        title: Kérdések
   proposal_notifications:
     new:
       title_label: Cím
   shared:
+    save: Mentés
     search_results: Keresési eredmények
     advanced_search:
       from: Feladó
@@ -52,11 +77,14 @@ hu:
       external_url: Link a további dokumentációhoz
       geozone: Működési kör
     index:
+      title: Részvételi költségvetés
       sidebar:
         geozones: Működési kör
   stats:
     index:
       visits: Látogatások
+      debates: Viták
+      proposals: Javaslatok
       votes: Teljes szavazatok
       verified_users: Ellenőrzött felhasználók
       unverified_users: Ellenőrizetlen felhasználók
@@ -64,6 +92,9 @@ hu:
     direct_messages:
       new:
         title_label: Cím
+    show:
+      proposals: Javaslatok
+      debates: Viták
   welcome:
     welcome:
       user_permission_info: A fiókjával ...

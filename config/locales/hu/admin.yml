@@ -5,9 +5,20 @@ hu:
       banner:
         title: Cím
         description: Leírás
+        sections_label: Olyan részek, ahol megjelenik
+        sections:
+          homepage: Homepage
+          debates: Viták
+          proposals: Javaslatok
+          budgets: Részvételi költségvetés
+          help_page: Súgóoldal
     activity:
       show:
         content: Tartalom
+        filters:
+          on_debates: Viták
+          on_proposals: Javaslatok
+          on_users: Felhasználók
     budgets:
       index:
         table_name: Név
@@ -55,6 +66,11 @@ hu:
       processes:
         process:
           status: Állapot
+        subnav:
+          proposals: Javaslatok
+      proposals:
+        index:
+          title: Javaslatok
       draft_versions:
         table:
           title: Cím
@@ -71,19 +87,71 @@ hu:
         name: Név
         email: Email
     menu:
+      admin: Admin menü
+      banner: Bannerek kezelése
+      poll_questions: Kérdések
+      proposals_topics: Javaslatok témái
+      geozones: Területek kezelése
+      hidden_proposals: Rejtett javaslatok
+      hidden_budget_investments: Rejtett költségvetési beruházások
+      hidden_proposal_notifications: Rejtett pályázati értesítések
+      administrators: Adminisztrátorok
+      newsletters: Hírlevelek
+      admin_notifications: Értesítések
+      system_emails: Rendszer e-mailek
+      emails_download: E-mail letöltés
+      poll_officers: Szavazásvezetők
+      polls: Szavazás
+      poll_booths: A fülkék helye
+      poll_booth_assignments: Fülkék kiosztása
+      poll_shifts: A műszakok kezelése
+      officials: Tisztviselők
+      organizations: Szervezetek
+      settings: Általános beállítások
+      spending_proposals: Bevételi javaslatok
+      stats: Statisztika
+      signature_sheets: Aláírás lapok
       site_customization:
+        homepage: Homepage
+        pages: Egyedi oldalak
+        images: Egyéni képek
+        content_blocks: Egyéni tartalomblokkok
+        information_texts: Egyéni információs szövegek
         information_texts_menu:
-          mailers: e-mailek
+          debates: Viták
+          community: Közösség
+          proposals: Javaslatok
+          polls: Szavazás
+          layouts: Elrendezések
+          mailers: E-mailek
+          management: Menedzsment
+          guides: Útmutatók
+          welcome: Üdvözöljük
+        buttons:
+          save: Mentés
+      title_moderated_content: Moderált tartalom
+      title_budgets: Költségvetés
+      title_polls: Szavazás
+      title_profiles: profilok
+      title_settings: Beállítások
+      title_site_customization: A webhely tartalma
+      title_booths: Szavazati fülkék
+      legislation: Együttműködési jogszabályok
+      users: Felhasználók
     administrators:
       index:
+        title: Adminisztrátorok
         name: Név
         email: Email
     moderators:
       index:
         name: Név
         email: Email
+    segment_recipient:
+      administrators: Adminisztrátorok
     newsletters:
       index:
+        title: Hírlevelek
         subject: Tantárgy
         segment_recipient: A címzettek
       show:
@@ -93,12 +161,16 @@ hu:
         body: E-mail tartalma
     admin_notifications:
       index:
+        section_title: Értesítések
         title: Cím
         segment_recipient: A címzettek
       show:
         title: Cím
         body: Szöveg
         segment_recipient: A címzettek
+    emails_download:
+      index:
+        title: E-mail letöltés
     valuators:
       index:
         name: Név
@@ -111,6 +183,8 @@ hu:
       index:
         name: Név
     poll_officers:
+      index:
+        title: Szavazásvezetők
       officer:
         name: Név
         email: Email
@@ -153,6 +227,7 @@ hu:
         title: Szavazás szerkesztése
         submit_button: Szavazás frissítése
       show:
+        questions_tab: Kérdések
         booths_tab: fülkék
         recounts_tab: Újraszámlálás
         results_tab: Eredmények
@@ -164,9 +239,11 @@ hu:
         error_on_question_added: A kérdést nem lehetett ehhez a felméréshez rendelni
     questions:
       index:
+        title: Kérdések
         no_questions: Nincsenek kérdések.
         filter_poll: Szűrés szavazással
         select_poll: Válasszon pollot
+        questions_tab: Kérdések
         successful_proposals_tab: Sikeres javaslatok
         table_proposal: Javaslat
         table_question: Kérdés
@@ -250,6 +327,7 @@ hu:
         title: Fülke szerkesztése
         submit_button: Fülke frissítése
       booth:
+        shifts: A műszakok kezelése
         edit: Fülke szerkesztése
     officials:
       edit:
@@ -259,6 +337,7 @@ hu:
         official_destroyed: 'Mentett adatok: a felhasználó már nem hivatalos'
         official_updated: Tisztviselő adatai mentve
       index:
+        title: Tisztviselők
         no_officials: Nincsenek tisztviselők.
         name: Név
         official_position: Hivatalos beosztás
@@ -293,6 +372,7 @@ hu:
         reject: Elutasít
         rejected: Elutasítva
         search_placeholder: Név, e-mail vagy telefonszám
+        title: Szervezetek
         verified: ellenőrzött
         verify: Ellenőrzés
       search:
@@ -300,6 +380,7 @@ hu:
         no_results: Nincsenek szervezetek.
     proposals:
       index:
+        title: Rejtett javaslatok
         no_hidden_proposals: Nincsenek rejtett javaslatok.
     proposal_notifications:
       index:
@@ -426,7 +507,9 @@ hu:
         summary:
           comment_votes: Hozzászólás szavazatok
           debate_votes: Vita szavazatok
+          debates: Viták
           proposal_votes: Javaslat szavazatok
+          proposals: Javaslatok
           budgets: Nyisson meg költségvetéseket
           spending_proposals: Kiadási javaslatok
           unverified_users: Ellenőrizetlen felhasználók
@@ -439,10 +522,12 @@ hu:
           visits: Látogatások
           votes: Teljes szavazatok
         spending_proposals_title: Kiadási javaslatok
+        budgets_title: Részvételi költségvetés
         visits_title: Látogatások
         direct_messages: Közvetlen üzenetek
         proposal_notifications: Javaslat értesítések
         incomplete_verifications: Nem teljes ellenőrzések
+        polls: Szavazás
       direct_messages:
         title: Közvetlen üzenetek
         users_who_have_sent_message: Privát üzenetet küldõ felhasználók
@@ -451,6 +536,7 @@ hu:
         proposals_with_notifications: Javaslatok értesítésekkel
       polls:
         title: Szavazások statisztikái
+        all: Szavazás
         web_participants: Webes résztvevők
         total_participants: Összes résztvevő
         poll_questions: Kérdések a %{poll} szavazásból
@@ -523,6 +609,7 @@ hu:
             subnavigation_right: Fő navigációs jog
       images:
         index:
+          title: Egyéni képek
           image: Kép
         update:
           notice: A kép sikeresen frissült
@@ -557,6 +644,7 @@ hu:
           updated_at: 'Frissítve:'
           locale: Nyelv
     homepage:
+      title: Homepage
       description: Az aktív modulok a honlapon ugyanabban a sorrendben jelennek meg,
         mint itt.
       header_title: Fejléc
@@ -571,6 +659,8 @@ hu:
         link_text: Link szöveg
         link_url: Link URL
       feeds:
+        proposals: Javaslatok
+        debates: Viták
         processes: Eljárások
       new:
         header_title: Új fejléc

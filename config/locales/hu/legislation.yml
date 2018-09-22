@@ -12,4 +12,6 @@ hu:
     processes:
       header:
         description: Leírás
+      shared:
+        proposals_dates: Javaslatok
 ...

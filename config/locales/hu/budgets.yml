@@ -2,6 +2,8 @@
 hu:
   budgets:
     investments:
+      index:
+        title: Részvételi költségvetés
       show:
         votes: szavazatok
         price: Ár

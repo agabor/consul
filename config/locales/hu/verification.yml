@@ -91,7 +91,7 @@ hu:
       form:
         submit_button: Kód küldése
       show:
-        email_title: e-mailek
+        email_title: E-mailek
         explanation: Jelenleg a következő adatokat tartjuk nyilván a nyilvántartásban;
           kérjük, válasszon ki egy módszert a visszaigazoló kód elküldéséhez.
         phone_title: Telefonszámok

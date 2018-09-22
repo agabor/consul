@@ -2,5 +2,10 @@
 hu:
   settings:
     feature:
+      budgets: Részvételi költségvetés
+      proposals: Javaslatok
+      debates: Viták
+      polls: Szavazás
       signature_sheets: Aláírási lapok
+      spending_proposals: Bevételi javaslatok
 ...

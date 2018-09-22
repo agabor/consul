@@ -1,6 +1,8 @@
 ---
 hu:
   valuation:
+    menu:
+      spending_proposals: Bevételi javaslatok
     budgets:
       index:
         table_name: Név

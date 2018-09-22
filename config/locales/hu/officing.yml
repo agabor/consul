@@ -6,6 +6,7 @@ hu:
         ballots_white: Teljesen üres szavazólapok
         ballots_null: Érvénytelen szavazólapok
         ballots_total: Összes szavazólap
+        submit: Mentés
       index:
         results: Eredmények
         table_answer: Válasz
@@ -18,5 +19,6 @@ hu:
         document_number: Dokumentum azonosító (betűket is tartalmazhat)
     voters:
       new:
+        title: Szavazás
         table_poll: Közvélemény kutatás
 ...

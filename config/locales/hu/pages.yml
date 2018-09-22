@@ -3,13 +3,26 @@ hu:
   pages:
     help:
       menu:
+        debates: Viták
+        proposals: Javaslatok
+        polls: Szavazás
         processes: Eljárások
+      debates:
+        title: Viták
+      proposals:
+        title: Javaslatok
+      polls:
+        title: Szavazás
       processes:
         title: Eljárások
     accessibility:
       keyboard_shortcuts:
         navigation_table:
           rows:
+            '1':
+              page_column: Viták
+            '2':
+              page_column: Javaslatok
             '3':
               page_column: szavazatok
     verify:

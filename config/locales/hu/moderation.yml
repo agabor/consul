@@ -5,10 +5,17 @@ hu:
       index:
         headers:
           comment: Hozzászólás
+    debates:
+      index:
+        title: Viták
+    menu:
+      flagged_debates: Viták
+      proposals: Javaslatok
     proposals:
       index:
         headers:
           proposal: Javaslat
+        title: Javaslatok
     proposal_notifications:
       index:
         title: Javaslat értesítések
