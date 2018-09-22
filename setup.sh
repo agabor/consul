@@ -2,7 +2,6 @@
 
 sleep 3
 
-bundle install
 cp /config/database.yml config/database.yml
 
 cp config/secrets.yml.example config/secrets.yml
