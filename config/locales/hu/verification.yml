@@ -1,111 +1,100 @@
+---
 hu:
   verification:
-    alert:
-      lock: You have reached the maximum number of attempts. Please try again later.
-    back: Return to my account
-    email:
-      create:
-        alert:
-          failure: There was a problem with sending an email to your account
-        flash:
-          success: 'We have sent a confirmation email to your account: %{email}'
-      show:
-        alert:
-          failure: Verification code incorrect
-        flash:
-          success: You are a verified user
     letter:
-      alert:
-        unconfirmed_code: You have not yet entered the confirmation code
-      create:
-        flash:
-          offices: Citizen Support Offices
-          success_html: Thank you for requesting your <b>maximum security code (only required for the final votes)</b>. In a few days we will send it to the address featuring in the data we have on file. Please remember that, if you prefer, you can collect your code from any of the %{offices}.
       edit:
-        see_all: See proposals
-        title: Letter requested
-      errors:
-        incorrect_code: Verification code incorrect
+        see_all: Javaslatok megtekintése
+        title: Levél kérelmezve
       new:
-        explanation: 'For participate on final voting you can:'
-        go_to_index: See proposals
-        office: Verify in any %{office}
-        offices: Citizen Support Offices
-        send_letter: Send me a letter with the code
-        title: Congratulations!
-        user_permission_info: With your account you can...
+        explanation: 'A végső szavazáshoz való részvételhez a következőket teheti:'
+        go_to_index: Javaslatok megtekintése
+        office: Ellenőrizze akármelyik %{office}-ban
+        send_letter: Küldjön nekem egy levelet a kóddal
+        title: Gratulálunk!
+        user_permission_info: A fiókjával ...
       update:
         flash:
-          success: Code correct. Your account is now verified
+          success: A kód helyes. Fiókját most ellenőrizzük
     redirect_notices:
-      already_verified: Your account is already verified
-      email_already_sent: We have already sent an email with a confirmation link. If you cannot locate the email, you can request a reissue here
+      already_verified: Az ön fiókja már hitelesített.
+      email_already_sent: Már elküldtünk egy megerősítő linket tartalmazó e-mailt.
+        Ha nem találja meg az e-mailt, itt kérheti az újraküldést.
     residence:
       alert:
-        unconfirmed_residency: You have not yet confirmed your residency
+        unconfirmed_residency: Még nem hitelesítette a lakóhelyét
       create:
         flash:
-          success: Residence verified
+          success: Lakóhely hitelesítve
       new:
-        accept_terms_text: I accept %{terms_url} of the Census
-        accept_terms_text_title: I accept the terms and conditions of access of the Census
-        date_of_birth: Date of birth
-        document_number: Document number
-        document_number_help_title: Help
-        document_number_help_text_html: '<strong>DNI</strong>: 12345678A<br> <strong>Passport</strong>: AAA000001<br> <strong>Residence card</strong>: X1234567P'
+        accept_terms_text: Elfogadom a cenzus %{terms_url}-t
+        accept_terms_text_title: Elfogadom a cenzushoz való hozzáférés feltételeit
+          és feltételeit
+        date_of_birth: Születési dátum
+        document_number: Dokumentum szám
+        document_number_help_title: Segítség
+        document_number_help_text_html: '<strong> DNI </strong> : 12345678A <br> <strong>
+          Útlevél </strong> : AAA000001 <br> <strong> Tartózkodási kártya </strong>
+          : X1234567P'
         document_type:
-          passport: Passport
-          residence_card: Residence card
+          passport: Útlevél
+          residence_card: Lakcímkártya
           spanish_id: DNI
-        document_type_label: Document type
-        error_not_allowed_age: You don't have the required age to participate
-        error_not_allowed_postal_code: In order to be verified, you must be registered.
-        error_verifying_census: The Census was unable to verify your information. Please confirm that your census details are correct by calling to City Council or visit one %{offices}.
-        error_verifying_census_offices: Citizen Support Office
-        form_errors: prevented the verification of your residence
-        postal_code: Postcode
-        postal_code_note: To verify your account you must be registered
-        terms: the terms and conditions of access
-        title: Verify residence
-        verify_residence: Verify residence
+        document_type_label: Dokumentum típus
+        error_not_allowed_age: Nincs meg a szükséges életkora a részvételhez
+        error_not_allowed_postal_code: Hogy hitelesíteni lehessen, regisztrálnia kell
+          magát.
+        error_verifying_census: A cenzus nem tudta ellenőrizni az Ön információit.
+          Kérjük, erősítse meg, hogy a népszámlálási adatok helyesek, azzal hogy felhívja
+          a városi tanácsot, vagy látogasson el egy %{offices} .
+        error_verifying_census_offices: Állampolgári Támogatási Hivatal
+        form_errors: megakadályozta lakóhelyének ellenőrzését
+        postal_code: Irányítószám
+        postal_code_note: Fiókjának hitelesítéséhez regisztrálnia kell magát
+        terms: a hozzáférés feltételei
+        title: Lakhely hitelesítése
+        verify_residence: Lakhely hitelesítése
     sms:
       create:
         flash:
-          success: Enter the confirmation code sent to you by text message
+          success: Adja meg a szöveges üzenetben kapott megerősítő kódot
       edit:
-        confirmation_code: Enter the code you received on your mobile
-        resend_sms_link: Click here to send it again
-        resend_sms_text: Didn't get a text with your confirmation code?
-        submit_button: Send
-        title: Security code confirmation
+        confirmation_code: Adja meg a mobilon kapott kódot
+        resend_sms_link: Kattintson ide az újraküldéshez.
+        resend_sms_text: Nem kapott üzenetet a megerősítő kóddal?
+        submit_button: Küldés
+        title: Biztonsági kód megerősítése
       new:
-        phone: Enter your mobile phone number to receive the code
-        phone_format_html: "<strong><em>(Example: 612345678 or +34612345678)</em></strong>"
-        phone_note: We only use your phone to send you a code, never to contact you.
-        phone_placeholder: "Example: 612345678 or +34612345678"
-        submit_button: Send
-        title: Send confirmation code
+        phone: Írja be a mobiltelefonszámát a kód fogadásához
+        phone_format_html: '<strong> <em> (Példa: 612345678 vagy +34612345678) </em>
+          </strong>'
+        phone_note: A telefonszámot csak arra használjuk, hogy megerösítö kódot küldjünk
+          önnek, nem fogunk önnel kapcsolatba lépni.
+        phone_placeholder: 'Példa: 612345678 vagy +34612345678'
+        submit_button: Küldés
+        title: Megerősítő kód küldése
       update:
-        error: Incorrect confirmation code
+        error: Helytelen megerősítő kód
         flash:
           level_three:
-            success: Code correct. Your account is now verified
+            success: Helyes kód. A hozzáférését hitelesítettük.
           level_two:
-            success: Code correct
-    step_1: Residence
-    step_2: Confirmation code
-    step_3: Final verification
-    user_permission_debates: Participate on debates
-    user_permission_info: Verifing your information you'll be able to...
-    user_permission_proposal: Create new proposals
-    user_permission_support_proposal: Support proposals*
-    user_permission_votes: Participate on final voting*
+            success: A kód helyes
+    step_1: Lakcím
+    step_2: Megerősítő kód
+    step_3: Végső ellenőrzés
+    user_permission_debates: Részvétel vitákon
+    user_permission_info: Ellenőrizheti adatai adatait ...
+    user_permission_proposal: Javaslatok létrehozása
+    user_permission_support_proposal: Javaslatok támogatása*
+    user_permission_votes: Részvétel a végső szavazáson *
     verified_user:
       form:
-        submit_button: Send code
+        submit_button: Kód küldése
       show:
-        email_title: Emails
-        explanation: We currently hold the following details on the Register; please select a method for your confirmation code to be sent.
-        phone_title: Phone numbers
-        title: Available information
-        use_another_phone: Use other phone
+        email_title: e-mailek
+        explanation: Jelenleg a következő adatokat tartjuk nyilván a nyilvántartásban;
+          kérjük, válasszon ki egy módszert a visszaigazoló kód elküldéséhez.
+        phone_title: Telefonszámok
+        title: Az elérhető információk
+        use_another_phone: Használjon másik telefont
+...

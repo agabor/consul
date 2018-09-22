@@ -70,6 +70,10 @@ hu:
       index:
         name: Név
         email: Email
+    menu:
+      site_customization:
+        information_texts_menu:
+          mailers: e-mailek
     administrators:
       index:
         name: Név
@@ -83,6 +87,7 @@ hu:
         subject: Tantárgy
         segment_recipient: A címzettek
       show:
+        send: Küldés
         subject: Tantárgy
         segment_recipient: A címzettek
         body: E-mail tartalma
