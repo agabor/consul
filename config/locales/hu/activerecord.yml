@@ -236,13 +236,13 @@ hu:
       legislation/question_option:
         value: Érték
       legislation/annotation:
-        text: Megjegyzés
+        text: Hozzászólás
       document:
         title: Cím
         attachment: Melléklet
       image:
         title: Cím
-        attachment: Attachment
+        attachment: Melléklet
       poll/question/answer:
         title: Válasz
         description: Leírás
@@ -312,11 +312,11 @@ hu:
         proposal:
           attributes:
             tag_list:
-              less_than_or_equal_to: a címkék nem lehet nagyobbak, mint %{count}
+              less_than_or_equal_to: a címkék nem lehetnek nagyobbak, mint %{count}
         budget/investment:
           attributes:
             tag_list:
-              less_than_or_equal_to: a címkék nem lehet nagyobbak, mint %{count}
+              less_than_or_equal_to: a címkék nem lehetnek nagyobbak, mint %{count}
         proposal_notification:
           attributes:
             minimum_interval:
@@ -344,4 +344,4 @@ hu:
         restrict_dependent_destroy:
           has_one: Nem lehet törölni a rekordot, mert létezik egy függő %{record}
           has_many: Nem lehet törölni a rekordot, mert létezik %{record}
-          
+...
