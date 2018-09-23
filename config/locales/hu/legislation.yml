@@ -2,16 +2,39 @@
 hu:
   legislation:
     annotations:
+      comments:
+        see_all: Összes
+      form:
+        signin: Bejelentkezés
       show:
         title: Hozzászólás
     draft_versions:
       changes:
         title: Változtatások
       show:
+        see_comments: Összes hozzászólás megtekintése
         text_body: Szöveg
     processes:
       header:
         description: Leírás
+      index:
+        filters:
+          open: Nyitott folyamatok
+        no_open_processes: Nincsenek nyitott folyamatok
+        section_header:
+          icon_alt: Jogalkotási folyamatok ikonja
+          title: Jogalkotási folyamatok
+          help: Segítség a jogszabályi folyamatokról
+        section_footer:
+          title: Segítség a jogszabályi folyamatokról
       shared:
+        debate_dates: Vita
         proposals_dates: Javaslatok
+    questions:
+      question:
+        debate: Vita
+      show:
+        title: Együttműködésen alapuló jogalkotási folyamat
+      participation:
+        signin: Bejelentkezés
 ...

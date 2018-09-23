@@ -3,6 +3,7 @@ hu:
   management:
     account:
       edit:
+        back: Vissza
         password:
           password: Jelszó
     dashboard:

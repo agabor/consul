@@ -19,6 +19,7 @@ hu:
         table_title: Cím
         table_heading_name: Címsor neve
       show:
+        back: Vissza
         info: Szerző információ
         by: Küldő
         heading: Cím
@@ -49,6 +50,7 @@ hu:
         geozone_filter_all: Minden terület
         title: Befektetési projektek a részvételi költségvetéshez
       show:
+        back: Vissza
         info: Szerző információ
         association_name: Egyesület
         by: Küldő

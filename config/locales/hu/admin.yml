@@ -64,22 +64,41 @@ hu:
         user: Felhasználó
     legislation:
       processes:
+        edit:
+          back: Vissza
+        index:
+          title: Jogalkotási folyamatok
+        new:
+          back: Vissza
+          title: Hozzon létre új együttműködési jogalkotási folyamatot
         process:
           status: Állapot
         subnav:
+          questions: Vita
           proposals: Javaslatok
       proposals:
         index:
           title: Javaslatok
+          back: Vissza
       draft_versions:
+        edit:
+          back: Vissza
+        new:
+          back: Vissza
         table:
           title: Cím
           created_at: 'Létrehozva:'
           final_version: Végleges változat
           status: Állapot
       questions:
+        edit:
+          back: Vissza
         form:
           title: Kérdés
+        index:
+          back: Vissza
+        new:
+          back: Vissza
         table:
           title: Cím
     managers:
@@ -447,6 +466,7 @@ hu:
         feasibility:
           not_feasible: Nem kivitelezhető
       show:
+        back: Vissza
         heading: Befektetési projekt %{id}
         association_name: Egyesület
         geozone: terület

@@ -8,6 +8,10 @@ hu:
       confirmation_instructions:
         title: Üdvözöljük
         welcome: Üdvözöljük
+    menu:
+      login_items:
+        login: Bejelentkezés
+        signup: Regisztráció
     organizations:
       registrations:
         new:
@@ -15,6 +19,7 @@ hu:
           organization_name_label: A szervezet neve
           password_label: Jelszó
           phone_number_label: Telefonszám
+          submit: Regisztráció
     passwords:
       new:
         email_label: Email
@@ -22,6 +27,14 @@ hu:
       new:
         login_label: E-mail vagy felhasználónév
         password_label: Jelszó
+        remember_me: Emlékezz rám
+        title: Bejelentkezés
+    shared:
+      links:
+        new_confirmation: Nem kapott utasításokat a fiók aktiválásához?
+        new_password: Elfelejtette a jelszavát?
+        signin_with_provider: Bejelentkezés %{provider}-val
+        signup: Még nincs fiókja? %{signup_link}
     unlocks:
       new:
         email_label: Email
@@ -33,5 +46,7 @@ hu:
         new:
           email_label: Email
           password_label: Jelszó
+          submit: Regisztráció
+          title: Regisztráció
           username_label: Felhasználónév
 ...

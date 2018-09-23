@@ -1,6 +1,9 @@
 ---
 hu:
   budgets:
+    index:
+      section_header:
+        all_phases: Összes fázis megtekintése
     investments:
       index:
         title: Részvételi költségvetés

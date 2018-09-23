@@ -14,22 +14,31 @@ hu:
     comment_link: Hozzászólás
   debates:
     index:
+      orders:
+        hot_score: legaktívabb
       title: Viták
       section_header:
         title: Viták
     show:
       author: Szerző
   form:
+    debate: Vita
     proposal: Javaslat
     poll/question/answer: Válasz
     topic: Téma
     image: Kép
   layouts:
+    footer:
+      participation_text: Döntsd el, hogyan formálod a várost amiben élni akarsz!
     header:
+      available_locales: Elérhető nyelvek
+      collaborative_legislation: Jogalkotási folyamatok
       debates: Viták
+      locale: 'Nyelv:'
       management: Menedzsment
       help: Segítség
       proposals: Javaslatok
+      poll_questions: Szavazás
       budgets: Részvételi költségvetés
       spending_proposals: Kiadási javaslatok
       notification_item:
@@ -40,11 +49,20 @@ hu:
       title: Értesítések
   map:
     select_district: Működési kör
+  omniauth:
+    facebook:
+      sign_in: Jelentkezzen be a Facebook-kal
+    google_oauth2:
+      sign_in: Jelentkezzen be a Google-lal
+    info_sign_in: 'Jelentkezzen be:'
+    or_fill: 'Vagy töltse ki az alábbi űrlapot:'
   proposals:
     form:
       geozone: Működési kör
       proposal_external_url: Link a további dokumentációhoz
     index:
+      orders:
+        hot_score: legaktívabb
       title: Javaslatok
       section_header:
         title: Javaslatok
@@ -55,7 +73,15 @@ hu:
   polls:
     index:
       title: Szavazás
+      section_header:
+        icon_alt: Szavazás ikon
+        title: Szavazás
+        help: Segítség a szavazás során
+      section_footer:
+        title: Segítség a szavazás során
     show:
+      back: Vissza a szavazáshoz
+      signin: Bejelentkezés
       videos: Külső videó
       results:
         title: Kérdések
@@ -68,6 +94,13 @@ hu:
     advanced_search:
       from: Feladó
     back: Vissza
+    suggest:
+      debate:
+        see_all: Összes
+      budget_investment:
+        see_all: Összes
+      proposal:
+        see_all: Összes
     view_mode:
       cards: kártyák
   spending_proposals:
@@ -95,11 +128,30 @@ hu:
     show:
       proposals: Javaslatok
       debates: Viták
+    proposals:
+      see: Javaslat megtekintése
+  votes:
+    signin: Bejelentkezés
+    spending_proposals:
+      not_voting_allowed: A szavazási szakasz zárva van
+    budget_investments:
+      not_voting_allowed: A szavazási szakasz zárva van
   welcome:
+    feed:
+      most_active:
+        debates: Legaktívabb viták
+        proposals: Legaktívabb javaslatok
+        processes: Nyitott folyamatok
+      see_all_debates: Összes vita megtekintése
+      see_all_proposals: Összes javaslat megtekintése
+      see_all_processes: Összes folyamat megtekintése
+      see_process: Folyamat megtekintése
     welcome:
+      go_to_index: Javaslatok és viták megtekintése
       user_permission_info: A fiókjával ...
       user_permission_support_proposal: Javaslatok támogatása*
   related_content:
     content_title:
       proposal: Javaslat
+      debate: Vita
 ...

@@ -7,6 +7,8 @@ hu:
           comment: Hozzászólás
     debates:
       index:
+        headers:
+          debate: Vita
         title: Viták
     menu:
       flagged_debates: Viták
