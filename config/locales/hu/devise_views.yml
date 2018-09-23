@@ -4,13 +4,19 @@ hu:
     confirmations:
       new:
         email_label: Email
+      show:
+        title: Fiókom megerősítése
     mailer:
       confirmation_instructions:
+        confirm_link: Fiókom megerősítése
         title: Üdvözöljük
         welcome: Üdvözöljük
+      unlock_instructions:
+        unlock_link: Fiókom feloldása
     menu:
       login_items:
         login: Bejelentkezés
+        logout: Kijelentkezés
         signup: Regisztráció
     organizations:
       registrations:
@@ -28,9 +34,11 @@ hu:
         login_label: E-mail vagy felhasználónév
         password_label: Jelszó
         remember_me: Emlékezz rám
+        submit: Belépés
         title: Bejelentkezés
     shared:
       links:
+        login: Belépés
         new_confirmation: Nem kapott utasításokat a fiók aktiválásához?
         new_password: Elfelejtette a jelszavát?
         signin_with_provider: Bejelentkezés %{provider}-val
@@ -40,6 +48,8 @@ hu:
         email_label: Email
     users:
       registrations:
+        delete_form:
+          submit: Törölje fiókomat
         edit:
           current_password_label: Jelenlegi jelszó
           email_label: Email

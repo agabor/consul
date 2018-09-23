@@ -15,12 +15,12 @@ hu:
         image_alt: Gomb a javaslat támogatásához
         figcaption_html: Gomb a javaslat támogatásához.
       budgets:
-        title: Részvételi költségvetés
+        title: Közösségi Költségvetés
         description: A (z) %{link} szakasz segít az embereknek közvetlen döntést hozni
           arról, hogy az önkormányzati költségvetés mely részét költi el.
-        link: részvételi költségvetés
-        image_alt: A részvételi költségvetés különböző fázisai
-        figcaption_html: '"Támogatás" és "Szavazás" fázisai a részvételi költségvetéseknek.'
+        link: közösségi költségvetés
+        image_alt: A közösségi költségvetés különböző fázisai
+        figcaption_html: '"Támogatás" és "Szavazás" fázisai a közösségi költségvetéseknek.'
       polls:
         title: Szavazás
         description: A %{link} szakasz aktiválódik minden egyes alkalommal, amikor
@@ -37,7 +37,7 @@ hu:
         link: folyamatok
       faq:
         title: Technikai problémák?
-        description: Olvassa el a GYIK-ot és válaszolja meg a kérdéseit.
+        description: Olvassa el a GYIK-ot és kapjon választ a kérdéseire.
         button: Gyakran feltett kérdések megtekintése
         page:
           title: Gyakran Ismételt Kérdések
@@ -77,8 +77,8 @@ hu:
             description: A FÁJL NEVE
           - field: 'A fájl célja:'
             description: A résztvevő folyamatok irányítása a résztvevő személyek képzettségének
-              ellenőrzésére, valamint a polgári részvételi folyamatokból származó
-              eredmények számszerű és statisztikai számbavétele.
+              ellenőrzésére, valamint a polgári közösségi folyamatokból származó eredmények
+              számszerű és statisztikai számbavétele.
           - field: 'Az fájlért felelős intézmény:'
             description: A FÁJLÉRT FELELŐS INTÉZMÉNY
         '5':
@@ -182,5 +182,6 @@ hu:
       info: 'Fiókjának ellenőrzéséhez adja meg hozzáférési adatait:'
       info_code: 'Most írja be a levélben kapott kódot:'
       password: Jelszó
+      submit: Fiókom ellenőrzése
       title: Ellenőrizze fiókját
 ...

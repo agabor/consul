@@ -1,10 +1,15 @@
 ---
 hu:
   valuation:
+    header:
+      title: Értékelés
     menu:
+      title: Értékelés
       spending_proposals: Bevételi javaslatok
     budgets:
       index:
+        filters:
+          current: Nyitott
         table_name: Név
         table_phase: Fázis
         table_assigned_investments_valuation_open: Nyitott értékbecslésre kijelölt
@@ -12,6 +17,9 @@ hu:
         evaluate: Kiértékel
     budget_investments:
       index:
+        filters:
+          valuation_open: Nyitott
+          valuation_finished: Az értékelés befejeződött
         assigned_to: 'Hozzárendelve: %{valuator}'
         valuators_assigned:
           one: Hozzárendelt értékelő
@@ -26,6 +34,7 @@ hu:
         price: Ár
         price_first_year: Költség az első évben
         currency: €
+        valuation_finished: Az értékelés befejeződött
         duration: Időtartam
         responsibles: Felelősségek
         assigned_admin: Hozzárendelt admin
@@ -35,6 +44,7 @@ hu:
           adatok nem nyilvánosak) </small>
         unfeasible: Nem kivitelezhető
         feasible_explanation_html: Megvalósíthatósági magyarázat
+        valuation_finished: Az értékelés befejeződött
         valuation_finished_alert: Biztos, hogy ezt a jelentést befejezettnek jelöli?
           Ha ezt megteszi, már nem módosítható.
         not_feasible_alert: Az e-mailt azonnal elküldjük a projekt szerzőjének, a
@@ -48,7 +58,10 @@ hu:
     spending_proposals:
       index:
         geozone_filter_all: Minden terület
-        title: Befektetési projektek a részvételi költségvetéshez
+        filters:
+          valuation_open: Nyitott
+          valuation_finished: Az értékelés befejeződött
+        title: Befektetési projektek a közösségi költségvetéshez
       show:
         back: Vissza
         info: Szerző információ
@@ -59,6 +72,7 @@ hu:
         price_first_year: Költség az első évben
         currency: €
         not_feasible: Nem kivitelezhető
+        valuation_finished: Az értékelés befejeződött
         time_scope: Időtartam
         internal_comments: Belső hozzászólások
         responsibles: Felelősségek
@@ -69,6 +83,7 @@ hu:
         currency: €
         not_feasible: Nem kivitelezhető
         feasible_explanation_html: Megvalósíthatósági magyarázat
+        valuation_finished: Az értékelés befejeződött
         time_scope_html: Időtartam
         internal_comments_html: Belső hozzászólások
       notice:

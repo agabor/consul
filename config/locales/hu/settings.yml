@@ -97,8 +97,8 @@ hu:
     verification_offices_url: Az ellenőrző irodák URL-címe
     proposal_improvement_path: Javaslat javítás info belső link
     feature:
-      budgets: Részvételi költségvetés
-      budgets_description: A részvételi költségvetéssel a polgárok döntik el, hogy
+      budgets: Közösségi költségvetés
+      budgets_description: A közösségi költségvetéssel a polgárok döntik el, hogy
         a szomszédjaik által benyújtott projektek mekkora részt kapjanak az önkormányzati
         költségvetésből
       twitter_login: Twitter bejelentkezés
@@ -124,17 +124,18 @@ hu:
         aláírásait a helyszínen gyűjtsék össze a Résztvevő Költségvetések javaslataival
         és beruházási projektjeivel
       legislation: Törvényhozás
-      legislation_description: A részvételi folyamatok során a polgároknak lehetőséget
+      legislation_description: A közösségi folyamatok során a polgároknak lehetőséget
         kapnak arra, hogy részt vegyenek a városot érintő jogszabályok kidolgozásában
         és módosításában, és véleményüket adják a tervezett cselekvésekről
       spending_proposals: Bevételi javaslatok
       spending_proposals_description: '⚠️ MEGJEGYZÉS: Ezt a funkciót felváltotta a
-        részvételi költségkeret, és az új verziókban megszűnik'
+        közösségi költségkeret, és az új verziókban megszűnik'
       spending_proposal_features:
         voting_allowed: Szavazás beruházási projektekről - Előválogatási szakasz
-        voting_allowed_description: '⚠️ MEGJEGYZÉS: Ezt a funkciót felváltotta a részvételi
+        voting_allowed_description: '⚠️ MEGJEGYZÉS: Ezt a funkciót felváltotta a közösségi
           költségkeret, és az új verziókban megszűnik'
       user:
+        recommendations: Ajánlások
         recommendations_description: Ajánlásokat jelenít meg felhasználóknak honlapról
           a következő elemek címkéi alapján
         skip_verification: Felhasználói ellenőrzés kihagyása
@@ -147,7 +148,7 @@ hu:
         recommendations_on_proposals_description: Ajánlásokat jelenít meg a felhasználóknak
           a javaslatok oldalon a követett elemek alapján
       community: Közösség javaslatokhoz és beruházásokhoz
-      community_description: Engedélyezi a közösségi részt a részvételi költségvetések
+      community_description: Engedélyezi a közösségi részt a közösségi költségvetések
         javaslataiban és beruházási projektjeiben
       map: Javaslatok és költségvetési beruházások földrajzi elhelyezkedése
       map_description: Lehetővé teszi a javaslatok és beruházási projektek földrajzi
@@ -155,14 +156,14 @@ hu:
       allow_images: Engedélyezi a feltöltést és a képek megjelenítését
       allow_images_description: Lehetővé teszi a felhasználók számára, hogy képeket
         töltsenek fel, amikor javaslatokat és beruházási projekteket hoznak létre
-        a részvételi költségkeretekből
+        a közösségi költségkeretekből
       allow_attached_documents: A csatolt dokumentumok feltöltése és megjelenítése
       allow_attached_documents_description: Lehetővé teszi a felhasználók számára,
         hogy feltöltsék a dokumentumokat, amikor javaslatokat és beruházási projekteket
-        hoznak létre a részvételi költségkeretekből
+        hoznak létre a közösségi költségkeretekből
       guides: Útmutatók a javaslatok vagy beruházási projektek létrehozásához
-      guides_description: Aktív részvételi költségvetés esetén útmutatást nyújt a
-        javaslatok és a beruházási projektek közötti különbségekhez
+      guides_description: Aktív közösségi költségvetés esetén útmutatást nyújt a javaslatok
+        és a beruházási projektek közötti különbségekhez
       public_stats: Nyilvános statisztikák
       public_stats_description: Statisztikai adatok megjelenóitóese az adminisztrációs
         panelben

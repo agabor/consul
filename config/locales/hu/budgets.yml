@@ -6,11 +6,21 @@ hu:
         all_phases: Összes fázis megtekintése
     investments:
       index:
-        title: Részvételi költségvetés
+        title: Közösségi költségvetés
+        orders:
+          random: véletlen
+          confidence_score: legmagasabbra értékelt
+          price: ár szerint
       show:
+        supports: Támogatások
         votes: szavazatok
         price: Ár
+        comments_tab: Hozzászólások
         author: Szerző
+      investment:
+        supports:
+          one: 1 támogatás
+          other: '%{count} támogatás'
     results:
       link: Eredmények
       price: Ár

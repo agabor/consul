@@ -6,6 +6,8 @@ hu:
         see_all: Összes
       form:
         signin: Bejelentkezés
+      index:
+        title: Hozzászólások
       show:
         title: Hozzászólás
     draft_versions:
@@ -14,6 +16,7 @@ hu:
       show:
         see_comments: Összes hozzászólás megtekintése
         text_body: Szöveg
+        text_comments: Hozzászólások
     processes:
       header:
         description: Leírás
@@ -27,11 +30,16 @@ hu:
           help: Segítség a jogszabályi folyamatokról
         section_footer:
           title: Segítség a jogszabályi folyamatokról
+      process:
+        see_latest_comments: Legutóbbi hozzászólások megtekintése
       shared:
         debate_dates: Vita
         proposals_dates: Javaslatok
     questions:
       question:
+        comments:
+          one: 1 hozzászólás
+          other: '%{count} hozzászólás'
         debate: Vita
       show:
         title: Együttműködésen alapuló jogalkotási folyamat

@@ -5,12 +5,23 @@ hu:
       index:
         headers:
           comment: Hozzászólás
+        orders:
+          newest: Legújabb
+        title: Hozzászólások
+    dashboard:
+      index:
+        title: Moderálás
     debates:
       index:
         headers:
           debate: Vita
+        orders:
+          created_at: Legújabb
         title: Viták
+    header:
+      title: Moderálás
     menu:
+      flagged_comments: Hozzászólások
       flagged_debates: Viták
       proposals: Javaslatok
     proposals:
@@ -21,4 +32,7 @@ hu:
     proposal_notifications:
       index:
         title: Javaslat értesítések
+    users:
+      index:
+        hidden: Zárolt
 ...

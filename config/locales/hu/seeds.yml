@@ -31,10 +31,11 @@ hu:
       security_emergencies: Biztonság és vészhelyzetek
       environment: Környezet
     budgets:
-      budget: Részvételi költségvetés
+      budget: Közösségi költségvetés
       currency: €
       groups:
         all_city: Minden város
+        districts: Kerületek
       valuator_groups:
         culture_and_sports: Kultúra és sport
         gender_and_diversity: Nemek és sokszínűséggel kapcsolatos politikák

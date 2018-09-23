@@ -8,6 +8,9 @@ hu:
         new_topic: Téma létrehozása
       topic:
         destroy: A téma törlése
+        comments:
+          one: 1 hozzászólás
+          other: '%{count} hozzászólás'
       author: Szerző
     topic:
       form:
@@ -16,4 +19,7 @@ hu:
           submit_button: Téma létrehozása
         create:
           submit_button: Téma létrehozása
+      show:
+        tab:
+          comments_tab: Hozzászólások
 ...

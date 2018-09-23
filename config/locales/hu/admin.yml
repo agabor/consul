@@ -1,6 +1,8 @@
 ---
 hu:
   admin:
+    header:
+      title: Adminisztráció
     banners:
       banner:
         title: Cím
@@ -10,17 +12,31 @@ hu:
           homepage: Homepage
           debates: Viták
           proposals: Javaslatok
-          budgets: Részvételi költségvetés
+          budgets: Közösségi költségvetés
           help_page: Súgóoldal
     activity:
       show:
+        action: Akció
+        actions:
+          block: Zárolt
+          hide: Rejtett
+          restore: Visszaállítva
+        by: 'Moderátor:'
         content: Tartalom
+        filter: Mutat
         filters:
+          on_comments: Hozzászólások
           on_debates: Viták
           on_proposals: Javaslatok
           on_users: Felhasználók
+          on_system_emails: Rendszerüzenetek
+        title: Moderátor tevékenység
+        type: típus
+        no_activity: Nincsenek moderátor aktivitások.
     budgets:
       index:
+        filters:
+          open: Nyitott
         table_name: Név
         table_phase: Fázis
       edit:
@@ -39,9 +55,14 @@ hu:
       index:
         sort_by:
           title: Cím
+          supports: Támogatások
+        filters:
+          valuation_finished: Az értékelés befejeződött
         list:
           title: Cím
+          supports: Támogatások
           admin: Adminisztrátor
+          valuation_group: Értékelési csoport
           geozone: Működési kör
       show:
         heading: Cím
@@ -59,6 +80,9 @@ hu:
       index:
         table_name: Név
         table_description: Leírás
+    dashboard:
+      index:
+        title: Adminisztráció
     hidden_users:
       index:
         user: Felhasználó
@@ -68,11 +92,15 @@ hu:
           back: Vissza
         index:
           title: Jogalkotási folyamatok
+          filters:
+            open: Nyitott
         new:
           back: Vissza
-          title: Hozzon létre új együttműködési jogalkotási folyamatot
+          title: Hozzon létre új közösségi jogalkotási folyamatot
         process:
+          comments: Hozzászólások
           status: Állapot
+          status_open: Nyitott
         subnav:
           questions: Vita
           proposals: Javaslatok
@@ -88,6 +116,7 @@ hu:
         table:
           title: Cím
           created_at: 'Létrehozva:'
+          comments: Hozzászólások
           final_version: Végleges változat
           status: Állapot
       questions:
@@ -106,6 +135,7 @@ hu:
         name: Név
         email: Email
     menu:
+      activity: Moderátor tevékenység
       admin: Admin menü
       banner: Bannerek kezelése
       poll_questions: Kérdések
@@ -155,7 +185,7 @@ hu:
       title_settings: Beállítások
       title_site_customization: A webhely tartalma
       title_booths: Szavazati fülkék
-      legislation: Együttműködési jogszabályok
+      legislation: Közösségi Jogalkotás
       users: Felhasználók
     administrators:
       index:
@@ -459,8 +489,10 @@ hu:
       index:
         geozone_filter_all: Minden terület
         filters:
+          valuation_open: Nyitott
           managed: Irányított
-        title: Befektetési projektek a részvételi költségvetéshez
+          valuation_finished: Az értékelés befejeződött
+        title: Befektetési projektek a közösségi költségvetéshez
         summary_link: Beruházási projekt összefoglaló
         valuator_summary_link: Értékelő összefoglaló
         feasibility:
@@ -526,6 +558,7 @@ hu:
         stats_title: Statisztikák
         summary:
           comment_votes: Hozzászólás szavazatok
+          comments: Hozzászólások
           debate_votes: Vita szavazatok
           debates: Viták
           proposal_votes: Javaslat szavazatok
@@ -542,7 +575,7 @@ hu:
           visits: Látogatások
           votes: Teljes szavazatok
         spending_proposals_title: Kiadási javaslatok
-        budgets_title: Részvételi költségvetés
+        budgets_title: Közösségi költségvetés
         visits_title: Látogatások
         direct_messages: Közvetlen üzenetek
         proposal_notifications: Javaslat értesítések

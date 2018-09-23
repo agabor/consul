@@ -15,10 +15,19 @@ hu:
       verify: Ellenőrzés
     email_label: Email
     date_of_birth: Születési dátum
+    menu:
+      create_proposal: Javaslat létrehozása
+    permissions:
+      create_proposals: Javaslatok létrehozása
+    proposals:
+      create_proposal: Javaslat létrehozása
     budgets:
       table_name: Név
       table_phase: Fázis
     username_label: Felhasználónév
+    users:
+      create_user: Új felhasználó létrehozása
+      create_user_submit: Felhasználó létrehozása
     user_invites:
       new:
         label: E-mailek

@@ -2,24 +2,49 @@
 hu:
   account:
     show:
+      erase_account_link: Törölje fiókomat
       notifications: Értesítések
       phone_number_label: Telefonszám
+      recommendations: Ajánlások
+      title: Fiókom
       user_permission_info: A fiókjával ...
       username_label: Felhasználónév
+      verify_my_account: Fiókom ellenőrzése
   comments:
     comment:
       admin: Adminisztrátor
       author: Szerző
+      responses:
+        one: 1 válasz
+        other: '%{count} válasz'
+      votes:
+        one: 1 szavazat
+        other: '%{count} szavazat'
+    orders:
+      newest: Legújabbat előre
   comments_helper:
     comment_link: Hozzászólás
+    comments_title: Hozzászólások
   debates:
+    debate:
+      comments:
+        one: 1 hozzászólás
+        other: '%{count} hozzászólás'
+      votes:
+        one: 1 szavazat
+        other: '%{count} szavazat'
     index:
       orders:
+        confidence_score: legmagasabbra értékelt
+        created_at: legújabb
         hot_score: legaktívabb
       title: Viták
       section_header:
         title: Viták
+    new:
+      info_link: Javaslat létrehozása
     show:
+      comments_title: Hozzászólások
       author: Szerző
   form:
     debate: Vita
@@ -27,19 +52,28 @@ hu:
     poll/question/answer: Válasz
     topic: Téma
     image: Kép
+  geozones:
+    none: Teljes város
   layouts:
     footer:
       participation_text: Döntsd el, hogyan formálod a várost amiben élni akarsz!
     header:
+      administration_menu: Admin
+      administration: Adminisztráció
       available_locales: Elérhető nyelvek
       collaborative_legislation: Jogalkotási folyamatok
       debates: Viták
       locale: 'Nyelv:'
       management: Menedzsment
+      moderation: Moderálás
+      valuation: Értékelés
       help: Segítség
+      my_account_link: Fiókom
+      my_activity_link: Aktivitásom
+      open: nyitott
       proposals: Javaslatok
       poll_questions: Szavazás
-      budgets: Részvételi költségvetés
+      budgets: Közösségi költségvetés
       spending_proposals: Kiadási javaslatok
       notification_item:
         notifications: Értesítések
@@ -48,7 +82,9 @@ hu:
     index:
       title: Értesítések
   map:
+    title: Kerületek
     select_district: Működési kör
+    start_proposal: Javaslat létrehozása
   omniauth:
     facebook:
       sign_in: Jelentkezzen be a Facebook-kal
@@ -57,22 +93,44 @@ hu:
     info_sign_in: 'Jelentkezzen be:'
     or_fill: 'Vagy töltse ki az alábbi űrlapot:'
   proposals:
+    create:
+      form:
+        submit_button: Javaslat létrehozása
     form:
       geozone: Működési kör
       proposal_external_url: Link a további dokumentációhoz
     index:
       orders:
+        confidence_score: legmagasabbra értékelt
+        created_at: legújabb
         hot_score: legaktívabb
+        archival_date: archivált
+      start_proposal: Javaslat létrehozása
       title: Javaslatok
       section_header:
         title: Javaslatok
+    new:
+      form:
+        submit_button: Javaslat létrehozása
+    proposal:
+      supports:
+        one: 1 támogatás
+        other: '%{count} támogatás'
     show:
+      comments_tab: Hozzászólások
       notifications_tab: Értesítések
       title_video_url: Külső videó
       author: Szerző
   polls:
     index:
+      filters:
+        current: Nyitott
+        incoming: Jövőbeni
+        expired: Lejárt
       title: Szavazás
+      participate_button: Részvétel a szavazáson
+      no_geozone_restricted: Teljes város
+      geozone_restricted: Kerületek
       section_header:
         icon_alt: Szavazás ikon
         title: Szavazás
@@ -81,6 +139,7 @@ hu:
         title: Segítség a szavazás során
     show:
       back: Vissza a szavazáshoz
+      comments_tab: Hozzászólások
       signin: Bejelentkezés
       videos: Külső videó
       results:
@@ -88,12 +147,21 @@ hu:
   proposal_notifications:
     new:
       title_label: Cím
+    show:
+      back: Vissza az aktivitásomhoz
   shared:
     save: Mentés
     search_results: Keresési eredmények
     advanced_search:
+      author_type: Szerző kategória szerint
+      author_type_blank: Válasszon egy kategóriát
+      date: Dátum szerint
+      date_range_blank: Válasszon egy dátumot
       from: Feladó
+      general: Szöveg szerint
+      title: Részletes keresés
     back: Vissza
+    show: Mutat
     suggest:
       debate:
         see_all: Összes
@@ -101,8 +169,12 @@ hu:
         see_all: Összes
       proposal:
         see_all: Összes
+    tags_cloud:
+      districts: Kerületek
     view_mode:
       cards: kártyák
+    recommended_index:
+      title: Ajánlások
   spending_proposals:
     form:
       association_name: Egyesület neve
@@ -110,14 +182,19 @@ hu:
       external_url: Link a további dokumentációhoz
       geozone: Működési kör
     index:
-      title: Részvételi költségvetés
+      title: Közösségi költségvetés
       sidebar:
         geozones: Működési kör
+    spending_proposal:
+      supports:
+        one: 1 támogatás
+        other: '%{count} támogatás'
   stats:
     index:
       visits: Látogatások
       debates: Viták
       proposals: Javaslatok
+      comments: Hozzászólások
       votes: Teljes szavazatok
       verified_users: Ellenőrzött felhasználók
       unverified_users: Ellenőrizetlen felhasználók
@@ -128,10 +205,16 @@ hu:
     show:
       proposals: Javaslatok
       debates: Viták
+      comments: Hozzászólások
+      filters:
+        budget_investments:
+          one: 1 Befektetés
+          other: '%{count} Befektetés'
     proposals:
       see: Javaslat megtekintése
   votes:
     signin: Bejelentkezés
+    supports: Támogatások
     spending_proposals:
       not_voting_allowed: A szavazási szakasz zárva van
     budget_investments:
@@ -150,8 +233,12 @@ hu:
       go_to_index: Javaslatok és viták megtekintése
       user_permission_info: A fiókjával ...
       user_permission_support_proposal: Javaslatok támogatása*
+      user_permission_verify_my_account: Fiókom ellenőrzése
   related_content:
     content_title:
       proposal: Javaslat
       debate: Vita
+  admin/widget:
+    header:
+      title: Adminisztráció
 ...
