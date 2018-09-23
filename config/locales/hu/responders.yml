@@ -1,39 +1,41 @@
+---
 hu:
   flash:
     actions:
       create:
-        notice: "%{resource_name} created successfully."
-        debate: "Debate created successfully."
-        direct_message: "You message has been sent successfully."
-        poll: "Poll created successfully."
-        poll_booth: "Booth created successfully."
-        poll_question_answer: "Answer created successfully"
-        poll_question_answer_video: "Video created successfully"
-        poll_question_answer_image: "Image uploaded successfully"
-        proposal: "Proposal created successfully."
-        proposal_notification: "Your message has been sent correctly."
-        spending_proposal: "Spending proposal created successfully. You can access it from %{activity}"
-        budget_investment: "Budget Investment created successfully."
-        signature_sheet: "Signature sheet created successfully"
-        topic: "Topic created successfully."
-        valuator_group: "Valuator group created successfully"
+        notice: '%{resource_name} sikeresen létrehozva.'
+        debate: A vita sikeresen megtörtént.
+        direct_message: Az üzenetet sikeresen elküldtük.
+        poll: Szavazás sikeresen létrehozva.
+        poll_booth: A fülke sikeresen létrejött.
+        poll_question_answer: A válasz sikeresen létrehozva
+        poll_question_answer_video: A videó sikeresen létrehozva
+        poll_question_answer_image: A kép feltöltése sikeresen megtörtént
+        proposal: A javaslat sikeresen létrehozva.
+        proposal_notification: Az üzenetet megfelelően elküldtük.
+        spending_proposal: 'A költségkeret sikeresen létrehozva. Elérheti innen: %{activity}'
+        budget_investment: A költségkeret-beruházás sikeresen létrehozva.
+        signature_sheet: Aláírási lap sikeresen létrehozva
+        topic: Téma sikeresen létrehozva.
+        valuator_group: Az értékelő csoport sikeresen létrehozva
       save_changes:
-        notice: Changes saved
+        notice: változtatások elmentve
       update:
-        notice: "%{resource_name} updated successfully."
-        debate: "Debate updated successfully."
-        poll: "Poll updated successfully."
-        poll_booth: "Booth updated successfully."
-        proposal: "Proposal updated successfully."
-        spending_proposal: "Investment project updated succesfully."
-        budget_investment: "Investment project updated succesfully."
-        topic: "Topic updated successfully."
-        valuator_group: "Valuator group updated successfully"
-        translation: "Translation updated successfully"
+        notice: '%{resource_name} sikeresen frissült.'
+        debate: A vita sikeresen frissült.
+        poll: A szavazás sikeresen frissült.
+        poll_booth: A fülke sikeresen frissült.
+        proposal: A javaslat sikeresen frissült.
+        spending_proposal: A beruházási projekt sikeresen frissült.
+        budget_investment: A beruházási projekt sikeresen frissült.
+        topic: Téma sikeresen frissült.
+        valuator_group: A minősítő csoport sikeresen frissült
+        translation: A fordítás sikeresen frissült
       destroy:
-        spending_proposal: "Spending proposal deleted succesfully."
-        budget_investment: "Investment project deleted succesfully."
-        error: "Could not delete"
-        topic: "Topic deleted successfully."
-        poll_question_answer_video: "Answer video deleted successfully."
-        valuator_group: "Valuator group deleted successfully"
+        spending_proposal: A költség javaslat sikeresen törölve.
+        budget_investment: A beruházási projekt sikeresen törölve.
+        error: Nem sikerült törölni
+        topic: A téma sikeresen törölve.
+        poll_question_answer_video: A válasz videó sikeresen törölve.
+        valuator_group: Az értékelő csoport sikeresen törölve
+...

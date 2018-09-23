@@ -1,11 +1,169 @@
 ---
 hu:
   settings:
+    comments_body_max_length: A megjegyzés maximális hossza
+    comments_body_max_length_description: A karakterek száma
+    official_level_1_name: 1. szintű köztisztviselő
+    official_level_1_name_description: A címke, amely az 1-es szintű köztisztviselő
+      pozícióval rendelkező felhasználóknál jelenik meg
+    official_level_2_name: 2. szintű köztisztviselő
+    official_level_2_name_description: A címke, amely az 2-es szintű köztisztviselő
+      pozícióval rendelkező felhasználóknál jelenik meg
+    official_level_3_name: 3. szintű köztisztviselő
+    official_level_3_name_description: A címke, amely az 3-as szintű köztisztviselő
+      pozícióval rendelkező felhasználóknál jelenik meg
+    official_level_4_name: 4. szintű köztisztviselő
+    official_level_4_name_description: A címke, amely az 4-es szintű köztisztviselő
+      pozícióval rendelkező felhasználóknál jelenik meg
+    official_level_5_name: 5. szintű köztisztviselő
+    official_level_5_name_description: A címke, amely az 5-ös szintű köztisztviselő
+      pozícióval rendelkező felhasználóknál jelenik meg
+    max_ratio_anon_votes_on_debates: A névtelen szavazatok maximális aránya vitánként
+    max_ratio_anon_votes_on_debates_description: Regisztrált de nem hitelesített felhasználók
+      anonim szavazatainak száma
+    max_votes_for_proposal_edit: A szavazatok száma, amelyből a javaslatot már nem
+      lehet szerkeszteni
+    max_votes_for_proposal_edit_description: Ettől a támogatási számtól a javaslat
+      szerzője már nem szerkesztheti azt
+    max_votes_for_debate_edit: A szavazatok száma, amelytől egy vitát már nem lehet
+      szerkeszteni
+    max_votes_for_debate_edit_description: Ennyi szavazattól a vita szerzője már nem
+      szerkesztheti azt
+    proposal_code_prefix: Prefix a Javaslat kódokhoz
+    proposal_code_prefix_description: Ez az előtag jelenik meg a Javaslatokban a létrehozás
+      dátuma és annak azonosítója előtt
+    votes_for_proposal_success: A javaslat jóváhagyásához szükséges szavazatok száma
+    votes_for_proposal_success_description: Ha egy javaslat eléri ezt a támogatási
+      számot, többé nem lesz képes több támogatást kapni, és sikeresnek tekinthető
+    months_to_archive_proposals: Hónapok a pályázatok archiválásához
+    months_to_archive_proposals_description: E hónapok elteltével a pályázatokat archiválni
+      fogják, és többé nem lesz képes támogatást kapni
+    email_domain_for_officials: E-mail domain a köztisztviselők számára
+    email_domain_for_officials_description: Az ezzel a domain-nel regisztált felhasználók
+      regisztrációkor hitelesítődnek
+    per_page_code_head: Ez a kód minden oldalba beágyazódik ( <head> )
+    per_page_code_head_description: Ez a kód megjelenik a <head> tag-en belül. Hasznos
+      az egyedi szkriptekhez, analízisekhez ...
+    per_page_code_body: Ez a kód minden oldalba beágyazódik ( <body> )
+    per_page_code_body_description: Ez a kód megjelenik a <body> tag-en belül. Hasznos
+      az egyedi szkriptekhez, analízisekhez ...
+    twitter_handle: Twitter handle
+    twitter_handle_description: Ha ki van töltve, a láblécben fog megjelenni
+    twitter_hashtag: Twitter hashtag
+    twitter_hashtag_description: Hashtag, amely megjelenik a tartalom megosztása során
+      a Twitteren
+    facebook_handle: Facebook handle
+    facebook_handle_description: Ha ki van töltve, a láblécben fog megjelenni
+    youtube_handle: Youtube handle
+    youtube_handle_description: Ha ki van töltve, a láblécben fog megjelenni
+    telegram_handle: Telegram handle
+    telegram_handle_description: Ha ki van töltve, a láblécben fog megjelenni
+    instagram_handle: Instagram handle
+    instagram_handle_description: Ha ki van töltve, a láblécben fog megjelenni
+    url: Fő URL
+    url_description: A webhelyének fő URL-je
+    org_name: Szervezet
+    org_name_description: A szervezet neve
+    place_name: Hely
+    place_name_description: A városa neve
+    related_content_score_threshold: Kapcsolódó tartalom pontszám küszöb
+    related_content_score_threshold_description: Elrejti azokat a tartalmakat, amelyeket
+      a felhasználók irrelevánsnak jelölnek
+    map_latitude: Szélességi fok
+    map_latitude_description: Szélességi fok a térkép helyzetének megjelenítéséhez
+    map_longitude: Hosszúsági fok
+    map_longitude_description: Hosszúsági fok a térkép helyzetének megjelenítése
+    map_zoom: Zoomolás
+    map_zoom_description: Nagyítás a térkép helyzetének megjelenítéséhez
+    mailer_from_name: A küldő e-mail címe
+    mailer_from_name_description: Ez a név megjelenik az alkalmazásból küldött e-mailekben
+    mailer_from_address: Feladó email címe
+    mailer_from_address_description: Ez az e-mail cím az alkalmazásból küldött e-mailekben
+      jelenik meg
+    meta_title: Az oldal címe (SEO)
+    meta_title_description: A webhely <title> , a SEO javítására használatos
+    meta_description: A webhely leírása (SEO)
+    meta_description_description: A webhely leírása <meta name="description"> , a
+      SEO javítására szolgál
+    meta_keywords: Kulcsszavak (SEO)
+    meta_keywords_description: Kulcsszavak <meta name="keywords"> , a SEO javítására
+    min_age_to_participate: A részvételhez szükséges minimális életkor
+    min_age_to_participate_description: Az ebben a korban lévő felhasználók részt
+      vehetnek az összes folyamatban
+    analytics_url: Analytics URL
+    blog_url: Blog URL
+    transparency_url: Transparency URL
+    opendata_url: Open Data URL
+    verification_offices_url: Az ellenőrző irodák URL-címe
+    proposal_improvement_path: Javaslat javítás info belső link
     feature:
       budgets: Részvételi költségvetés
+      budgets_description: A részvételi költségvetéssel a polgárok döntik el, hogy
+        a szomszédjaik által benyújtott projektek mekkora részt kapjanak az önkormányzati
+        költségvetésből
+      twitter_login: Twitter bejelentkezés
+      twitter_login_description: Engedélyezze a felhasználók számára, hogy regisztráljanak
+        a Twitter fiókjukkal
+      facebook_login: Facebook bejelentkezés
+      facebook_login_description: Engedélyezze a felhasználók számára, hogy regisztráljanak
+        a Facebook fiókjukkal
+      google_login: Google bejelentkezés
+      google_login_description: Engedélyezze a felhasználók számára, hogy regisztráljanak
+        a Google fiókjukkal
       proposals: Javaslatok
+      proposals_description: Az állampolgári javaslatok lehetőséget nyújtanak a szomszédoknak
+        és a közösségeknek, hogy közvetlen döntést hozhassanak a városról, miután
+        elegendő támogatást kaptak és benyújtották a polgárok szavazatait
       debates: Viták
+      debates_description: A polgárok vitarendje azoknak szól, akik olyan kérdéseket
+        mutatnak be, amelyek rájuk vonatkoznak, és amelyekről meg szeretnék osztani
+        nézeteiket másokkal
       polls: Szavazás
       signature_sheets: Aláírási lapok
+      signature_sheets_description: Lehetővé teszi, hogy az adminisztrációs panel
+        aláírásait a helyszínen gyűjtsék össze a Résztvevő Költségvetések javaslataival
+        és beruházási projektjeivel
+      legislation: Törvényhozás
+      legislation_description: A részvételi folyamatok során a polgároknak lehetőséget
+        kapnak arra, hogy részt vegyenek a városot érintő jogszabályok kidolgozásában
+        és módosításában, és véleményüket adják a tervezett cselekvésekről
       spending_proposals: Bevételi javaslatok
+      spending_proposals_description: '⚠️ MEGJEGYZÉS: Ezt a funkciót felváltotta a
+        részvételi költségkeret, és az új verziókban megszűnik'
+      spending_proposal_features:
+        voting_allowed: Szavazás beruházási projektekről - Előválogatási szakasz
+        voting_allowed_description: '⚠️ MEGJEGYZÉS: Ezt a funkciót felváltotta a részvételi
+          költségkeret, és az új verziókban megszűnik'
+      user:
+        recommendations_description: Ajánlásokat jelenít meg felhasználóknak honlapról
+          a következő elemek címkéi alapján
+        skip_verification: Felhasználói ellenőrzés kihagyása
+        skip_verification_description: Ez kikapcsolja a felhasználói ellenőrzést,
+          és minden regisztrált felhasználó részt vehet az összes folyamatban
+        recommendations_on_debates: Ajánlások a vitákról
+        recommendations_on_debates_description: Ajánlásokat jelenít meg a felhasználóknak
+          a vita oldalakon a követett elemek alapján
+        recommendations_on_proposals: Ajánlások a javaslatokról
+        recommendations_on_proposals_description: Ajánlásokat jelenít meg a felhasználóknak
+          a javaslatok oldalon a követett elemek alapján
+      community: Közösség javaslatokhoz és beruházásokhoz
+      community_description: Engedélyezi a közösségi részt a részvételi költségvetések
+        javaslataiban és beruházási projektjeiben
+      map: Javaslatok és költségvetési beruházások földrajzi elhelyezkedése
+      map_description: Lehetővé teszi a javaslatok és beruházási projektek földrajzi
+        elhelyezését
+      allow_images: Engedélyezi a feltöltést és a képek megjelenítését
+      allow_images_description: Lehetővé teszi a felhasználók számára, hogy képeket
+        töltsenek fel, amikor javaslatokat és beruházási projekteket hoznak létre
+        a részvételi költségkeretekből
+      allow_attached_documents: A csatolt dokumentumok feltöltése és megjelenítése
+      allow_attached_documents_description: Lehetővé teszi a felhasználók számára,
+        hogy feltöltsék a dokumentumokat, amikor javaslatokat és beruházási projekteket
+        hoznak létre a részvételi költségkeretekből
+      guides: Útmutatók a javaslatok vagy beruházási projektek létrehozásához
+      guides_description: Aktív részvételi költségvetés esetén útmutatást nyújt a
+        javaslatok és a beruházási projektek közötti különbségekhez
+      public_stats: Nyilvános statisztikák
+      public_stats_description: Statisztikai adatok megjelenóitóese az adminisztrációs
+        panelben
 ...

@@ -1,14 +1,40 @@
 ---
 hu:
   verification:
+    alert:
+      lock: Elérte a kísérletek maximális számát. Kérem, próbálja újra később.
+    back: Vissza a számlámhoz
+    email:
+      create:
+        alert:
+          failure: Probléma volt egy e-mail elküldésével az ön címére.
+        flash:
+          success: 'A megerősítő e-mailt elküldtük a címére: %{email}'
+      show:
+        alert:
+          failure: Az ellenőrző kód helytelen
+        flash:
+          success: Ön hitelesített felhasználó
     letter:
+      alert:
+        unconfirmed_code: Még nem adta meg a megerősítő kódot
+      create:
+        flash:
+          offices: Állampolgári Szolgáltató Irodák
+          success_html: Köszönjük, hogy <b> maximális biztonsági kódot kérte (csak
+            a végső szavazatokhoz szükséges) </b> . Néhány nap múlva elküldjük az
+            adatbázisunkban szereplő címre. Kérjük, ne feledje, hogy ha tetszik, a
+            kódot a (z) %{offices} bármelyikéből begyűjtheti.
       edit:
         see_all: Javaslatok megtekintése
         title: Levél kérelmezve
+      errors:
+        incorrect_code: Az ellenőrző kód helytelen
       new:
         explanation: 'A végső szavazáshoz való részvételhez a következőket teheti:'
         go_to_index: Javaslatok megtekintése
         office: Ellenőrizze akármelyik %{office}-ban
+        offices: Állampolgári Szolgáltató Irodák
         send_letter: Küldjön nekem egy levelet a kóddal
         title: Gratulálunk!
         user_permission_info: A fiókjával ...

@@ -7,24 +7,68 @@ hu:
       index:
         table_name: Név
         table_phase: Fázis
+        table_assigned_investments_valuation_open: Nyitott értékbecslésre kijelölt
+          befektetési projektek
+        evaluate: Kiértékel
     budget_investments:
       index:
+        assigned_to: 'Hozzárendelve: %{valuator}'
+        valuators_assigned:
+          one: Hozzárendelt értékelő
+          other: Hozzárendelt értékelők
         table_title: Cím
         table_heading_name: Címsor neve
       show:
+        info: Szerző információ
+        by: Küldő
         heading: Cím
         price: Ár
+        price_first_year: Költség az első évben
+        currency: €
+        duration: Időtartam
+        responsibles: Felelősségek
+        assigned_admin: Hozzárendelt admin
       edit:
+        price_html: Ár ( %{currency} )
+        price_first_year_html: Költség az első évben ( %{currency} ) <small> (opcionális,
+          adatok nem nyilvánosak) </small>
         unfeasible: Nem kivitelezhető
+        feasible_explanation_html: Megvalósíthatósági magyarázat
+        valuation_finished_alert: Biztos, hogy ezt a jelentést befejezettnek jelöli?
+          Ha ezt megteszi, már nem módosítható.
+        not_feasible_alert: Az e-mailt azonnal elküldjük a projekt szerzőjének, a
+          kivitelezhetetlenségről szóló jelentéssel.
+        duration_html: Időtartam
+      notice:
+        valuate: Dosszié frissítve
+      valuation_comments: Értékelési megjegyzések
+      not_in_valuating_phase: A befektetések csak akkor értékelhetők, ha a költségvetés
+        értékelési szakaszban van.
     spending_proposals:
       index:
         geozone_filter_all: Minden terület
         title: Befektetési projektek a részvételi költségvetéshez
       show:
+        info: Szerző információ
         association_name: Egyesület
+        by: Küldő
         geozone: terület
         price: Ár
+        price_first_year: Költség az első évben
+        currency: €
         not_feasible: Nem kivitelezhető
+        time_scope: Időtartam
+        internal_comments: Belső hozzászólások
+        responsibles: Felelősségek
+        assigned_admin: Hozzárendelt admin
       edit:
+        price_html: Ár ( %{currency} )
+        price_first_year_html: Költség az első évben ( %{currency} )
+        currency: €
         not_feasible: Nem kivitelezhető
+        feasible_explanation_html: Megvalósíthatósági magyarázat
+        time_scope_html: Időtartam
+        internal_comments_html: Belső hozzászólások
+      notice:
+        valuate: Dosszié frissítve
 ...

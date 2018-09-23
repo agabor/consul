@@ -11,21 +11,176 @@ hu:
         title: Viták
       proposals:
         title: Javaslatok
+        link: állampolgári javaslatok
+        image_alt: Gomb a javaslat támogatásához
+        figcaption_html: Gomb a javaslat támogatásához.
+      budgets:
+        title: Részvételi költségvetés
+        description: A (z) %{link} szakasz segít az embereknek közvetlen döntést hozni
+          arról, hogy az önkormányzati költségvetés mely részét költi el.
+        link: részvételi költségvetés
+        image_alt: A részvételi költségvetés különböző fázisai
+        figcaption_html: '"Támogatás" és "Szavazás" fázisai a részvételi költségvetéseknek.'
       polls:
         title: Szavazás
+        description: A %{link} szakasz aktiválódik minden egyes alkalommal, amikor
+          egy javaslat eléri az 1% -os támogatást, és szavazásra kerül, vagy amikor
+          a városi tanács javaslatot tesz az emberek számára, hogy döntsenek.
+        link: közvélemény-kutatások
+        feature_1: A szavazásban való részvételhez %{link} és hitelesítse a fiókját.
+        feature_1_link: regisztráljon a (z) %{org_name}-be
       processes:
         title: Eljárások
+        description: A %{link} szakaszban a polgárok részt vesznek a városot érintő
+          jogszabályok megfogalmazásában és módosításában, és a korábbi vitákban véleményüket
+          adják az önkormányzati politikákról.
+        link: folyamatok
+      faq:
+        title: Technikai problémák?
+        description: Olvassa el a GYIK-ot és válaszolja meg a kérdéseit.
+        button: Gyakran feltett kérdések megtekintése
+        page:
+          title: Gyakran Ismételt Kérdések
+          description: Ezen az oldalon válaszolhatja meg a gyakori kérdéseket a webhely
+            felhasználóinak.
+          faq_1_title: 1. kérdés
+          faq_1_description: Ez egy példa az első kérdés leírására.
+      other:
+        how_to_use: Használja %{org_name}-t a városában
+      how_to_use:
+        text: "Használja a helyi önkormányzatnál, vagy segítsen továbbfejleszteni,
+          szabad szoftver. \n\n Ez a nyílt kormányzati portál a [CONSUL alkalmazást](https://github.com/consul/consul
+          'consul github') használja, amely szabad szoftver, az [AGPLv3 liszenszt](http://www.gnu.org/licenses/
+          agpl-3.0.html \"AGPLv3 gnu\") használja. Ez egyszerű szavakkal azt jelenti,
+          hogy a kódot, bárki szabadon felhasználhatja másolhatja, módosíthatja és
+          továbbadhatja. Mert úgy gondoljuk, hogy a kultúra jobb és gazdagabb, amikor
+          szabad. \n\n Ha ön programozó, akkor megtekintheti a kódot, és segíthet
+          továbbfejleszteni a [CONSUL alkalmazást](https://github.com/consul/consul
+          'consul github')."
+      titles:
+        how_to_use: Használja a helyi irányításhoz
+    privacy:
+      subtitle: AZ ADATVÉDELEMRE VONATKOZÓ INFORMÀCIÒK
+      info_items:
+        '0':
+          text: A nyílt kormányzati portálon elérhető információk névtelenek.
+        '1':
+          text: A nyitott kormányzati portálon szereplő szolgáltatások használatához
+            a felhasználónak regisztrálnia kell és meg kell adnia a személyes adatait,
+            ami az adott regisztráció típushoz szükséges.
+        '2':
+          text: 'A megadott adatokat a városi tanács fogalmazza meg és dolgozza fel
+            az alábbi iratok leírásával összhangban:'
+        '3':
+          subitems:
+          - field: 'Fájl név:'
+            description: A FÁJL NEVE
+          - field: 'A fájl célja:'
+            description: A résztvevő folyamatok irányítása a résztvevő személyek képzettségének
+              ellenőrzésére, valamint a polgári részvételi folyamatokból származó
+              eredmények számszerű és statisztikai számbavétele.
+          - field: 'Az fájlért felelős intézmény:'
+            description: A FÁJLÉRT FELELŐS INTÉZMÉNY
+        '5':
+          text: Általános elvként ez a weboldal nem osztja meg és nem hozza nyilvánosságra
+            a megszerzett információkat, kivéve ha azt a felhasználó engedélyezte,
+            vagy az információt az igazságügyi hatóság, az ügyészség vagy a bírósági
+            rendőrség vagy a A személyes adatok védelméről szóló, december 15-i 15/1999
+            szervezeti törvény 11. cikke.
     accessibility:
+      description: "A webes akadálymentesítés arra utal, hogy minden ember hozzáférhet
+        az internethez és annak tartalmához, tekintet nélkül a fogyatékosságra (fizikai,
+        szellemi vagy technikai), illetve a felhasználási környezetből (technológiai
+        vagy környezeti) származókból. \n\n Ha a weboldalakat a hozzáférhetőség szem
+        előtt tartásával tervezték, minden felhasználó egyenlő feltételek mellett
+        férhet hozzá a tartalomhoz, például:"
+      examples:
+      - Ha megad alternatív szövegeket a képekhez, akkor a vakok és gyengénlátók speciális
+        olvasó szoftverekkel hozzáférhetnek ehhez az információhoz.
+      - Ha a videók feliratokkal rendelkeznek, a halláskárosodott felhasználók is
+        meg tudják érteni őket.
+      - Ha a tartalom egyszerű és illusztrált nyelven íródott, a tanulási problémákkal
+        küzdő felhasználók jobban megérthetik őket.
+      - Ha a felhasználónak mozgási problémái vannak és nehéz használnia az egeret,
+        akkor a billentyű alternatívák segítenek a navigációban.
       keyboard_shortcuts:
+        title: Gyorsbillentyűk
         navigation_table:
+          description: Ahhoz, hogy ez a weboldal könnyen használható legyen, gyors
+            hozzáférési gombok vannak programozva azokhoz az általános érdeklődési
+            területekhez, amelyekre a webhely szerveződik.
+          caption: Billentyűparancsok a navigációs menühöz
+          key_header: Billentyű
+          page_header: oldal
           rows:
-            '1':
-              page_column: Viták
-            '2':
-              page_column: Javaslatok
-            '3':
-              page_column: szavazatok
+          - key_column: 0
+            page_column: Home
+          - key_column: 1
+            page_column: Viták
+          - key_column: 2
+            page_column: Javaslatok
+          - key_column: 3
+            page_column: szavazatok
+          - key_column: 4
+          - key_column: 5
+            page_column: Jogalkotási folyamatok
+        browser_table:
+          description: 'Az alkalmazott operációs rendszertől és böngészőtől függően
+            a billentyűkombináció a következő lesz:'
+          caption: Billentyűkombináció az operációs rendszertől és a böngészőtől függően
+          browser_header: Böngésző
+          key_header: Billentyűkombináció
+          rows:
+          - browser_column: Explorer
+            key_column: ALT + gyorsbillentyű, majd ENTER
+          - key_column: ALT + CAPS + gyorsbillentyű
+          - browser_column: Chrome
+            key_column: ALT + gyorsbillentyű (CTRL + ALT + gyorsbillentyű MAC-en)
+          - browser_column: Safari
+            key_column: ALT + gyorsbillentyű (CMD + gyorsbillentyű MAC-en)
+          - browser_column: Opera
+            key_column: CAPS + ESC + gyorsbillentyű
+      textsize:
+        title: Szövegméret
+        browser_settings_table:
+          description: A weboldal elérhető konstrukciója lehetővé teszi a felhasználó
+            számára, hogy kiválassza a neki megfelelő szöveg méretét. Ez a művelet
+            a böngészőtől függően különböző módon hajtható végre.
+          browser_header: Böngésző
+          action_header: Teendő
+          rows:
+          - browser_column: Explorer
+            action_column: Nézet > Szövegméret
+          - action_column: Nézet > Méret
+          - browser_column: Chrome
+            action_column: Beállítások (ikon) > Opciók > Speciális > Webtartalom >
+              Szövegméret
+          - browser_column: Safari
+            action_column: Nézet > Nagyítás / kicsinyítés
+          - browser_column: Opera
+            action_column: Nézet > skála
+        browser_shortcuts_table:
+          description: 'A szövegméret módosításának másik módja a böngészőkben definiált
+            billentyűparancsok használata, különösen a billentyűkombináció:'
+          rows:
+          - shortcut_column: CTRL és + (CMD és + MAC-en)
+            description_column: Növeli a szöveg méretét
+          - shortcut_column: CTRL és - (CMD és - MAC-en)
+            description_column: Csökkenti a szöveg méretét
+      compatibility:
+        title: Kompatibilitás a szabványokkal és a vizuális tervezéssel
+        description_html: A webhely minden oldala megfelel az <strong> Kisegítő lehetőségekre
+          vonatkozó iránymutatások </strong> vagy az elérhető dizájn általános elveknek,
+          amelyeket a Munkacsoport által létrehozott < abbr title = "Web Accessibility
+          Initiative" lang = "en" > WAI < / abbr > W3C.
+    titles:
+      conditions: Használati feltételek
+      help: Mi a %{org} ? - A polgárok részvétele
     verify:
+      code: A levélben kapott kód
       email: Email
+      info: 'Fiókjának ellenőrzéséhez adja meg hozzáférési adatait:'
+      info_code: 'Most írja be a levélben kapott kódot:'
       password: Jelszó
+      title: Ellenőrizze fiókját
 ...
