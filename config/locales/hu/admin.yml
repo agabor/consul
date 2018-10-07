@@ -3,7 +3,14 @@ hu:
   admin:
     header:
       title: Adminisztráció
+    actions:
+      actions: Műveletek
+      confirm: Biztos benne?
+      edit: Szerkesztés
     banners:
+      index:
+        filters:
+          all: Minden
       banner:
         title: Cím
         description: Leírás
@@ -14,6 +21,9 @@ hu:
           proposals: Javaslatok
           budgets: Közösségi költségvetés
           help_page: Súgóoldal
+      edit:
+        form:
+          submit_button: Módosítások mentése
     activity:
       show:
         action: Akció
@@ -25,6 +35,7 @@ hu:
         content: Tartalom
         filter: Mutat
         filters:
+          all: Minden
           on_comments: Hozzászólások
           on_debates: Viták
           on_proposals: Javaslatok
@@ -35,12 +46,17 @@ hu:
         no_activity: Nincsenek moderátor aktivitások.
     budgets:
       index:
+        title: Közösségi költségvetések
+        filter: Szűrő
         filters:
           open: Nyitott
+          finished: Befejezett
         table_name: Név
         table_phase: Fázis
+        table_edit_budget: Szerkesztés
       edit:
         phase: Fázis
+        actions: Műveletek
       form:
         heading: Címsor neve
         table_heading: Cím
@@ -51,49 +67,102 @@ hu:
         end_date: Befejezés dátuma
         summary: összefoglalás
         description: Leírás
+        save_changes: Módosítások mentése
     budget_investments:
       index:
+        heading_filter_all: Minden címsor
         sort_by:
+          id: ID
           title: Cím
           supports: Támogatások
         filters:
+          all: Minden
+          under_valuation: Kiértékelés alatt
           valuation_finished: Az értékelés befejeződött
+          feasible: Megvalósítható
+          unfeasible: Nem kivitelezhető
+        buttons:
+          filter: Szűrő
+        no_budget_investments: Nincs beruházási projekt.
+        title: Beruházási projektek
+        no_valuators_assigned: Nincs hozzárendelt értékelő
+        feasibility:
+          unfeasible: Nem kivitelezhető
         list:
+          id: ID
           title: Cím
           supports: Támogatások
           admin: Adminisztrátor
           valuation_group: Értékelési csoport
           geozone: Működési kör
+          feasibility: Megvalósíthatóság
+        see_results: Eredmények
       show:
+        assigned_valuators: Hozzárendelt értékelők
+        edit: Szerkesztés
         heading: Cím
+        dossier: Dosszié
+        edit_dossier: Dosszié szerkesztése
+        undefined: Határozatlan
         image: Kép
+      edit:
+        undefined: Határozatlan
     milestones:
       index:
+        table_id: ID
         table_title: Cím
         table_description: Leírás
         table_publication_date: Közzététel dátuma
         table_status: Állapot
+        table_actions: Műveletek
         image: Kép
       new:
+        date: Dátum
         description: Leírás
     statuses:
       index:
         table_name: Név
         table_description: Leírás
+        table_actions: Műveletek
+        edit: Szerkesztés
+    comments:
+      index:
+        filter: Szűrő
+        filters:
+          all: Minden
+          without_confirmed_hide: Függőben
     dashboard:
       index:
         title: Adminisztráció
+    debates:
+      index:
+        filter: Szűrő
+        filters:
+          all: Minden
+          without_confirmed_hide: Függőben
     hidden_users:
       index:
+        filter: Szűrő
+        filters:
+          all: Minden
+          without_confirmed_hide: Függőben
         user: Felhasználó
+    hidden_budget_investments:
+      index:
+        filter: Szűrő
+        filters:
+          all: Minden
+          without_confirmed_hide: Függőben
     legislation:
       processes:
         edit:
           back: Vissza
+          submit_button: Módosítások mentése
         index:
           title: Jogalkotási folyamatok
           filters:
             open: Nyitott
+            all: Minden
         new:
           back: Vissza
           title: Hozzon létre új közösségi jogalkotási folyamatot
@@ -111,6 +180,7 @@ hu:
       draft_versions:
         edit:
           back: Vissza
+          submit_button: Módosítások mentése
         new:
           back: Vissza
         table:
@@ -122,6 +192,7 @@ hu:
       questions:
         edit:
           back: Vissza
+          submit_button: Módosítások mentése
         form:
           title: Kérdés
         index:
@@ -140,6 +211,7 @@ hu:
       banner: Bannerek kezelése
       poll_questions: Kérdések
       proposals_topics: Javaslatok témái
+      budgets: Közösségi költségvetések
       geozones: Területek kezelése
       hidden_proposals: Rejtett javaslatok
       hidden_budget_investments: Rejtett költségvetési beruházások
@@ -203,8 +275,11 @@ hu:
         title: Hírlevelek
         subject: Tantárgy
         segment_recipient: A címzettek
+        actions: Műveletek
+        edit: Szerkesztés
       show:
         send: Küldés
+        sent_at: Elküldve
         subject: Tantárgy
         segment_recipient: A címzettek
         body: E-mail tartalma
@@ -213,7 +288,10 @@ hu:
         section_title: Értesítések
         title: Cím
         segment_recipient: A címzettek
+        actions: Műveletek
+        edit: Szerkesztés
       show:
+        sent_at: Elküldve
         title: Cím
         body: Szöveg
         segment_recipient: A címzettek
@@ -225,6 +303,8 @@ hu:
         name: Név
         email: Email
         description: Leírás
+      summary:
+        finished_count: Befejezett
       show:
         description: Leírás
         email: Email
@@ -237,18 +317,26 @@ hu:
       officer:
         name: Név
         email: Email
+      search:
+        search: Keresés
     poll_officer_assignments:
       index:
         table_name: Név
         table_email: Email
+      by_officer:
+        date: Dátum
+        booth: Fülke
     poll_shifts:
       new:
+        date: Dátum
+        search_officer_button: Keresés
         table_email: Email
         table_name: Név
     poll_booth_assignments:
       show:
         recounts_list: Újraszámlálás lista ehhez a fülkéhez
         results: Eredmények
+        date: Dátum
         count_final: Végleges újraszámolás (tisztviselő szerint)
         count_by_system: Szavazatok (automatikus)
         total_system: Összes szavazat (automatikus)
@@ -322,6 +410,7 @@ hu:
           images_list: Képek listája
           documents_list: Dokumentumok listája
           document_title: Cím
+          document_actions: Műveletek
     answers:
       new:
         title: Új válasz
@@ -346,6 +435,7 @@ hu:
     recounts:
       index:
         no_recounts: Nincs mit újraszámolni
+        table_booth_name: Fülke
         table_total_recount: Teljes újraszámlálás (tisztviselö szerint)
         table_system_count: Szavazatok (automatikus)
     results:
@@ -359,7 +449,9 @@ hu:
         table_answer: Válasz
         table_votes: szavazatok
       results_by_booth:
+        booth: Fülke
         results: Eredmények
+        see_results: Eredmények
         title: Eredmények fülke szerint
     booths:
       index:
@@ -404,7 +496,10 @@ hu:
         no_results: Nem található hivatalos beosztás.
     organizations:
       index:
+        filter: Szűrő
         filters:
+          all: Minden
+          pending: Függőben
           rejected: Elutasítva
           verified: ellenőrzött
         hidden_count_html:
@@ -420,19 +515,29 @@ hu:
         no_organizations: Nincsenek szervezetek.
         reject: Elutasít
         rejected: Elutasítva
+        search: Keresés
         search_placeholder: Név, e-mail vagy telefonszám
         title: Szervezetek
         verified: ellenőrzött
         verify: Ellenőrzés
+        pending: Függőben
       search:
         title: Keresési szervezetek
         no_results: Nincsenek szervezetek.
     proposals:
       index:
+        filter: Szűrő
+        filters:
+          all: Minden
+          without_confirmed_hide: Függőben
         title: Rejtett javaslatok
         no_hidden_proposals: Nincsenek rejtett javaslatok.
     proposal_notifications:
       index:
+        filter: Szűrő
+        filters:
+          all: Minden
+          without_confirmed_hide: Függőben
         title: Rejtett értesítések
         no_hidden_proposals: Nincs rejtett értesítés.
     settings:
@@ -458,24 +563,32 @@ hu:
           flash:
             update: A térképkonfiguráció sikeresen frissült.
       setting: Funkció
+      setting_actions: Műveletek
       setting_name: Beállítás
       setting_status: Állapot
       setting_value: Érték
     shared:
       booths_search:
+        button: Keresés
         placeholder: Fülke keresése név szerint
       poll_officers_search:
+        button: Keresés
         placeholder: Szavazási tisztviselők keresése
       poll_questions_search:
+        button: Keresés
         placeholder: Szavazás kérdések keresése
       proposal_search:
+        button: Keresés
         placeholder: Keresési javaslatok cím, kód, leírás vagy kérdés alapján
       spending_proposal_search:
+        button: Keresés
         placeholder: A kiadási javaslatok keresése cím vagy leírás szerint
       user_search:
+        button: Keresés
         placeholder: Felhasználó keresése név vagy e-mail alapján
       search_results: Keresési eredmények
       no_search_results: Nincs találat.
+      actions: Műveletek
       title: Cím
       description: Leírás
       image: Kép
@@ -491,25 +604,38 @@ hu:
         filters:
           valuation_open: Nyitott
           managed: Irányított
+          valuating: Kiértékelés alatt
           valuation_finished: Az értékelés befejeződött
+          all: Minden
         title: Befektetési projektek a közösségi költségvetéshez
+        no_valuators_assigned: Nincs hozzárendelt értékelő
         summary_link: Beruházási projekt összefoglaló
         valuator_summary_link: Értékelő összefoglaló
         feasibility:
           not_feasible: Nem kivitelezhető
+          undefined: Határozatlan
       show:
+        assigned_valuators: Hozzárendelt értékelők
         back: Vissza
         heading: Befektetési projekt %{id}
+        edit: Szerkesztés
         association_name: Egyesület
         geozone: terület
+        dossier: Dosszié
+        edit_dossier: Dosszié szerkesztése
+        undefined: Határozatlan
+      edit:
+        undefined: Határozatlan
       summary:
         title: Összefoglalás befektetési projektekhez
         title_proposals_with_supports: Összegzés a támogatási beruházási projektekhez
         geozone_name: terület
+        finished_count: Befejezett
     geozones:
       index:
         title: Terület
         create: Terület létrehozása
+        edit: Szerkesztés
       geozone:
         name: Név
         external_code: Külső kód
@@ -521,6 +647,8 @@ hu:
             one: Egy hiba miatt nem lehet a területet mentani
             other: A felmerült hibák miatt nem lehet a területet mentani
       edit:
+        form:
+          submit_button: Módosítások mentése
         editing: Terület szerkesztése
         back: Vissza
       new:
@@ -564,6 +692,7 @@ hu:
           proposal_votes: Javaslat szavazatok
           proposals: Javaslatok
           budgets: Nyisson meg költségvetéseket
+          budget_investments: Beruházási projektek
           spending_proposals: Kiadási javaslatok
           unverified_users: Ellenőrizetlen felhasználók
           user_level_three: A harmadik szintű felhasználók
@@ -621,6 +750,7 @@ hu:
         no_users: Nincsenek felhasználók.
       search:
         placeholder: Felhasználó keresése e-mail, név vagy dokumentumszám szerint
+        search: Keresés
     verifications:
       index:
         phone_not_given: Telefon nincs megadva

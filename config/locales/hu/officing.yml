@@ -1,13 +1,42 @@
 ---
 hu:
   officing:
+    header:
+      title: Szavazás
+    dashboard:
+      index:
+        title: Szavazás műszak
+        info: Itt érvényesítheti a felhasználói dokumentumokat és tárolhatja a szavazati
+          eredményeket
+        no_shifts: Ma nincs műszakban.
+    menu:
+      voters: Dokumentum ellenőrzése
+      total_recounts: Összes újraszámlálás és eredmény
+    polls:
+      final:
+        title: Szavazások készen állnak a végleges újraszámlálásra
+        no_polls: Ön nem vezet végleges újraszámlálást egy aktív szavazáson sem.
+        select_poll: Válasszon szavazást
+        add_results: Eredmények hozzáadása
     results:
+      flash:
+        create: Eredmények elmentve
+        error_create: Az eredmények nem lettek elmentve. Hiba történt az adatokban.
+        error_wrong_booth: Rossz fülke. Az eredmények nem lettek elmentve.
       new:
+        title: '%{poll} - Eredmények hozzáadása'
+        not_allowed: Hozzáadhat eredményeket a szavazáshoz
+        booth: Fülke
+        date: Dátum
+        select_booth: Válassza ki a fülkét
         ballots_white: Teljesen üres szavazólapok
         ballots_null: Érvénytelen szavazólapok
         ballots_total: Összes szavazólap
         submit: Mentés
+        results_list: Eredmények
+        see_results: Eredmények
       index:
+        no_results: Nincs eredmény
         results: Eredmények
         table_answer: Válasz
         table_votes: szavazatok
@@ -15,10 +44,28 @@ hu:
         table_nulls: Érvénytelen szavazólapok
         table_total: Összes szavazólap
     residence:
+      flash:
+        create: A cenzus ellenőrizte a dokumentumot
+        not_allowed: Ma nincs műszakja
       new:
+        title: Dokumentum ellenőrzése
         document_number: Dokumentum azonosító (betűket is tartalmazhat)
+        submit: Dokumentum ellenőrzése
+        error_verifying_census: A cenzus nem tudta ellenőrizni ezt a dokumentumot.
+        form_errors: megakadályozta a dokumentum ellenőrzését
+        no_assignments: Ma nincs műszakja
     voters:
       new:
         title: Szavazás
         table_poll: Közvélemény kutatás
+        table_status: Szavazások állapota
+        table_actions: Műveletek
+        not_to_vote: A személy úgy döntött, hogy ez alkalommal nem szavaz
+      show:
+        can_vote: Szavazhat
+        error_already_voted: Már vett részt ebben a szavazásban
+        submit: A szavazás megerősítése
+        success: Szavazás bevezetve!
+      can_vote:
+        submit_disable_with: Várjon, szavazat rögzítése ...
 ...

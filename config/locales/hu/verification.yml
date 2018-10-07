@@ -102,13 +102,13 @@ hu:
         error: Helytelen megerősítő kód
         flash:
           level_three:
-            success: Helyes kód. A hozzáférését hitelesítettük.
+            success: A kód helyes. Fiókját most ellenőrizzük
           level_two:
             success: A kód helyes
     step_1: Lakcím
     step_2: Megerősítő kód
     step_3: Végső ellenőrzés
-    user_permission_debates: Részvétel vitákon
+    user_permission_debates: Részvétel a vitákon
     user_permission_info: Ellenőrizheti adatai adatait ...
     user_permission_proposal: Javaslatok létrehozása
     user_permission_support_proposal: Javaslatok támogatása*

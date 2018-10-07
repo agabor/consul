@@ -1,16 +1,44 @@
 ---
 hu:
   pages:
+    conditions:
+      title: Felhasználási feltételek
+      subtitle: JOGI NYILATKOZAT A FELHASZNÁLÁSI FELTÉTELEK, ADATVÉDELEM, SZEMÉLYES
+        ADATOK VÉDELME A NYÍLT KORMÁNYZATI PORTÁLON
+      description: A használati feltételekről, a személyes adatok védelméről és a
+        személyes adatok védelméről szóló információs oldal.
+    general_terms: Felhasználási feltételek
     help:
+      title: '%{org}  a polgári együttműködés platformja'
+      guide: Ez az útmutató elmagyarázza, hogy az egyes %{org} szakaszok milyenek
+        és hogyan működnek.
       menu:
         debates: Viták
         proposals: Javaslatok
+        budgets: Közösségi költségvetések
         polls: Szavazás
+        other: Egyéb fontos információk
         processes: Eljárások
       debates:
         title: Viták
+        description: A (z) %{link} szakaszban bemutathatod és megoszthatod véleményedet
+          másokkal a városhoz kapcsolódó problémákat illetően. Olyan ötletek is létrehozhatók,
+          amelyek a %{org} egyéb szakaszain keresztül a városi tanács konkrét intézkedéseihez
+          vezetnek.
+        link: polgári viták
+        feature_html: Létrehozhat vitákat, hozzászólhat és értékelheti azokat a <strong>
+          Elfogadom </strong> vagy <strong> Nem értek egyet </strong> . Ehhez %{link}
+          .
+        feature_link: regisztráció a (z) %{org}-ba
+        image_alt: Gombok a viták értékeléséhez
+        figcaption: Használja  az "Egyetértek"  vagy a "nem értek egyet" gombot, hogy
+          értékelje a viták.
       proposals:
         title: Javaslatok
+        description: A (z) %{link} szakaszban javaslatokat tehet a városi tanácsnak,
+          hogy végezze el azokat. A javaslatok támogatást igényelnek, és ha elegendő
+          támogatást érnek el, nyilvános szavazásra bocsátják őket. A polgárok szavazataiban
+          elfogadott javaslatokat a városi tanács elfogadja és végrehajtja.
         link: állampolgári javaslatok
         image_alt: Gomb a javaslat támogatásához
         figcaption_html: Gomb a javaslat támogatásához.
@@ -46,6 +74,7 @@ hu:
           faq_1_title: 1. kérdés
           faq_1_description: Ez egy példa az első kérdés leírására.
       other:
+        title: Egyéb fontos információk
         how_to_use: Használja %{org_name}-t a városában
       how_to_use:
         text: "Használja a helyi önkormányzatnál, vagy segítsen továbbfejleszteni,
@@ -60,6 +89,7 @@ hu:
       titles:
         how_to_use: Használja a helyi irányításhoz
     privacy:
+      title: Adatvédelmi irányelvek
       subtitle: AZ ADATVÉDELEMRE VONATKOZÓ INFORMÀCIÒK
       info_items:
         '0':
@@ -88,6 +118,7 @@ hu:
             rendőrség vagy a A személyes adatok védelméről szóló, december 15-i 15/1999
             szervezeti törvény 11. cikke.
     accessibility:
+      title: Kisegítő lehetőségek
       description: "A webes akadálymentesítés arra utal, hogy minden ember hozzáférhet
         az internethez és annak tartalmához, tekintet nélkül a fogyatékosságra (fizikai,
         szellemi vagy technikai), illetve a felhasználási környezetből (technológiai
@@ -122,6 +153,7 @@ hu:
           - key_column: 3
             page_column: szavazatok
           - key_column: 4
+            page_column: Közösségi költségvetések
           - key_column: 5
             page_column: Jogalkotási folyamatok
         browser_table:
@@ -133,7 +165,8 @@ hu:
           rows:
           - browser_column: Explorer
             key_column: ALT + gyorsbillentyű, majd ENTER
-          - key_column: ALT + CAPS + gyorsbillentyű
+          - browser_column: Firefox
+            key_column: ALT + CAPS + gyorsbillentyű
           - browser_column: Chrome
             key_column: ALT + gyorsbillentyű (CTRL + ALT + gyorsbillentyű MAC-en)
           - browser_column: Safari
@@ -151,7 +184,8 @@ hu:
           rows:
           - browser_column: Explorer
             action_column: Nézet > Szövegméret
-          - action_column: Nézet > Méret
+          - browser_column: Firefox
+            action_column: Nézet > Méret
           - browser_column: Chrome
             action_column: Beállítások (ikon) > Opciók > Speciális > Webtartalom >
               Szövegméret
@@ -174,8 +208,10 @@ hu:
           amelyeket a Munkacsoport által létrehozott < abbr title = "Web Accessibility
           Initiative" lang = "en" > WAI < / abbr > W3C.
     titles:
+      accessibility: Kisegítő lehetőségek
       conditions: Használati feltételek
       help: Mi a %{org} ? - A polgárok részvétele
+      privacy: Adatvédelmi irányelvek
     verify:
       code: A levélben kapott kód
       email: Email

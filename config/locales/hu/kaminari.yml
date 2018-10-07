@@ -1,22 +1,22 @@
+---
 hu:
   helpers:
     page_entries_info:
       entry:
-        one: Entry
-        other: Entries
-        zero: Entries
+        one: Bejegyzés
+        other: Bejegyzés
       more_pages:
-        display_entries: Displaying <strong>%{first}&nbsp;-&nbsp;%{last}</strong> of <strong>%{total} %{entry_name}</strong>
+        display_entries: <strong>%{first}&nbsp;-&nbsp;%{last}</strong> / <strong>%{total}
+          %{entry_name}</strong> megjelenítése
       one_page:
         display_entries:
-          one: There is <strong>1 %{entry_name}</strong>
-          other: There are <strong>%{count} %{entry_name}</strong>
-          zero: "%{entry_name} cannot be found"
+          one: <strong>1 %{entry_name}</strong>
+          other: <strong>%{count} %{entry_name}</strong>
   views:
     pagination:
-      current: You're on page
-      first: First
-      last: Last
-      next: Next
-      previous: Previous
-      truncate: "&hellip;"
+      current: Ön az oldalon van
+      first: Első
+      last: Utolsó
+      previous: Előző
+      truncate: '&hellip;'
+...

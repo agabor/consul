@@ -3,6 +3,8 @@ hu:
   social_share_button:
     share_to: 'Megosztás a következővel: %{name}'
     weibo: Sina Weibo
+    twitter: Twitter
+    facebook: Facebook
     douban: Douban
     qq: Qzone
     tqq: Tqq

@@ -1,7 +1,20 @@
 ---
 hu:
   images:
+    remove_image: Kép eltávolítása
     form:
+      title: Ilusztráló kép
+      title_placeholder: Adjon hozzá egy leíró címet a képhez
+      attachment_label: Válasszon képet
+      delete_button: Kép eltávolítása
+      note: 'Feltölthet egy képet a következő tartalomtípusokról: %{accepted_content_types}
+        , legfeljebb %{max_file_size} MB méretűt.'
       add_new_image: Kép hozzáadása
       admin_title: Kép
+      admin_alt_text: Alternatív szöveg a képhez
+    actions:
+      destroy:
+        notice: A kép sikeresen törölve.
+        alert: Nem lehet törölni a képet.
+        confirm: Biztosan törli a képet? Ez a művelet nem visszavonható!
 ...

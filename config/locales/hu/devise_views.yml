@@ -52,6 +52,7 @@ hu:
           submit: Törölje fiókomat
         edit:
           current_password_label: Jelenlegi jelszó
+          edit: Szerkesztés
           email_label: Email
         new:
           email_label: Email

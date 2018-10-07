@@ -4,45 +4,115 @@ hu:
     annotations:
       comments:
         see_all: Összes
+        see_complete: Összes megtekintése
+        comments_count:
+          one: '%{count} hozzászólás'
+          other: '%{count} hozzászólás'
+        replies_count:
+          one: '%{count} válasz'
+          other: '%{count} válasz'
+        cancel: Megszünteti
+        publish_comment: Hozzászólás közzététele
       form:
+        phase_not_open: Ez a szakasz nem nyitott
         signin: Bejelentkezés
       index:
         title: Hozzászólások
+        comments_about: Hozzászólások
+        see_in_context: Lásd az összefüggésben
+        comments_count:
+          one: '%{count} hozzászólás'
+          other: '%{count} hozzászólás'
       show:
         title: Hozzászólás
+      version_chooser:
+        seeing_version: Vélemények a verzióhoz
+        see_text: Tekintse meg a szöveget
     draft_versions:
       changes:
         title: Változtatások
+        seeing_changelog_version: Revízióváltozások összefoglalása
+        see_text: Tekintse meg a szöveget
       show:
+        loading_comments: Hozzászólások betöltése
+        seeing_version: A tervezet változatát látja
+        select_draft_version: Vázlat kiválasztása
+        select_version_submit: megtekintés
+        updated_at: 'frissítve: %{date}'
+        see_changes: lásd a változások összefoglalását
         see_comments: Összes hozzászólás megtekintése
+        text_toc: Tartalomjegyzék
         text_body: Szöveg
         text_comments: Hozzászólások
     processes:
       header:
+        additional_info: További információ
         description: Leírás
+        more_info: További információk és kontextus
+      proposals:
+        empty_proposals: Nincsenek javaslatok
+      debate:
+        empty_questions: Nincsenek kérdések
+        participate: Vegyen részt a vitában
       index:
+        filter: Szűrő
         filters:
           open: Nyitott folyamatok
         no_open_processes: Nincsenek nyitott folyamatok
+        no_next_processes: Nincsenek tervezett folyamatok
+        no_past_processes: Nincsenek múltbeli folyamatok
         section_header:
           icon_alt: Jogalkotási folyamatok ikonja
           title: Jogalkotási folyamatok
           help: Segítség a jogszabályi folyamatokról
         section_footer:
           title: Segítség a jogszabályi folyamatokról
+          description: Vegyen részt a vitákban és folyamatokban, mielőtt egy rendelet
+            vagy egy önkormányzati akció elfogadásra kerül. Véleményét a városi tanács
+            figyelembe veszi.
+      phase_not_open:
+        not_open: Ez a szakasz még nem nyitott
+      phase_empty:
+        empty: Semmi sincs még publikálva
       process:
         see_latest_comments: Legutóbbi hozzászólások megtekintése
+        see_latest_comments_title: Hozzászólás ehhez a folyamathoz
       shared:
+        key_dates: Fő dátumok
         debate_dates: Vita
+        draft_publication_date: Vázlat közzététele
+        allegations_dates: Állítások
+        result_publication_date: Végeredmény közzététele
         proposals_dates: Javaslatok
     questions:
+      comments:
+        comment_button: Válasz közzététele
+        comments_title: Nyitott válaszok
+        comments_closed: Zárt fázis
+        form:
+          leave_comment: Írja meg a válaszát
       question:
         comments:
           one: 1 hozzászólás
           other: '%{count} hozzászólás'
         debate: Vita
       show:
+        answer_question: Válasz beküldése
+        next_question: Következő kérdés
+        first_question: Az első kérdés
         title: Együttműködésen alapuló jogalkotási folyamat
       participation:
+        phase_not_open: Ez a szakasz nem nyitott
+        organizations: A szervezetek nem vehetnek részt a vitában
         signin: Bejelentkezés
+        unauthenticated: A részvételhez %{signin} vagy %{signup} kell.
+        verified_only: Csak ellenőrzött felhasználók vehetnek részt, %{verify_account}
+          .
+        debate_phase_not_open: A vitafázis befejeződött és a válaszokat többé nem
+          fogadják el
+    shared:
+      share_comment: Szóljon hozzá %{version_name}-hez a %{process_name} folyamatból
+    proposals:
+      not_verified: A szavazási javaslatokhoz %{verify_account} .
+      closed: Ez a folyamat lezárult és nem fogadhat szavazatokat.
 ...

@@ -5,44 +5,70 @@ hu:
       title: Értékelés
     menu:
       title: Értékelés
+      budgets: Közösségi költségvetések
       spending_proposals: Bevételi javaslatok
     budgets:
       index:
+        title: Közösségi költségvetések
         filters:
           current: Nyitott
+          finished: Befejezett
         table_name: Név
         table_phase: Fázis
         table_assigned_investments_valuation_open: Nyitott értékbecslésre kijelölt
           befektetési projektek
+        table_actions: Műveletek
         evaluate: Kiértékel
     budget_investments:
       index:
+        headings_filter_all: Minden címsor
         filters:
           valuation_open: Nyitott
+          valuating: Kiértékelés alatt
           valuation_finished: Az értékelés befejeződött
         assigned_to: 'Hozzárendelve: %{valuator}'
+        title: Beruházási projektek
+        edit: Dosszié szerkesztése
         valuators_assigned:
           one: Hozzárendelt értékelő
           other: Hozzárendelt értékelők
+        no_valuators_assigned: Nincs hozzárendelt értékelő
+        table_id: ID
         table_title: Cím
         table_heading_name: Címsor neve
+        table_actions: Műveletek
+        no_investments: Nincs beruházási projekt.
       show:
         back: Vissza
+        title: Beruházási projekt
         info: Szerző információ
         by: Küldő
+        sent: Elküldve
         heading: Cím
+        dossier: Dosszié
+        edit_dossier: Dosszié szerkesztése
         price: Ár
         price_first_year: Költség az első évben
         currency: €
+        feasibility: Megvalósíthatóság
+        feasible: Megvalósítható
+        unfeasible: Nem kivitelezhető
+        undefined: Határozatlan
         valuation_finished: Az értékelés befejeződött
         duration: Időtartam
         responsibles: Felelősségek
         assigned_admin: Hozzárendelt admin
+        assigned_valuators: Hozzárendelt értékelők
       edit:
+        dossier: Dosszié
         price_html: Ár ( %{currency} )
         price_first_year_html: Költség az első évben ( %{currency} ) <small> (opcionális,
           adatok nem nyilvánosak) </small>
+        price_explanation_html: Ár magyarázat
+        feasibility: Megvalósíthatóság
+        feasible: Megvalósítható
         unfeasible: Nem kivitelezhető
+        undefined_feasible: Függőben
         feasible_explanation_html: Megvalósíthatósági magyarázat
         valuation_finished: Az értékelés befejeződött
         valuation_finished_alert: Biztos, hogy ezt a jelentést befejezettnek jelöli?
@@ -50,6 +76,7 @@ hu:
         not_feasible_alert: Az e-mailt azonnal elküldjük a projekt szerzőjének, a
           kivitelezhetetlenségről szóló jelentéssel.
         duration_html: Időtartam
+        save: Módosítások mentése
       notice:
         valuate: Dosszié frissítve
       valuation_comments: Értékelési megjegyzések
@@ -60,32 +87,48 @@ hu:
         geozone_filter_all: Minden terület
         filters:
           valuation_open: Nyitott
+          valuating: Kiértékelés alatt
           valuation_finished: Az értékelés befejeződött
         title: Befektetési projektek a közösségi költségvetéshez
+        edit: Szerkesztés
       show:
         back: Vissza
+        heading: Beruházási projekt
         info: Szerző információ
         association_name: Egyesület
         by: Küldő
+        sent: Elküldve
         geozone: terület
+        dossier: Dosszié
+        edit_dossier: Dosszié szerkesztése
         price: Ár
         price_first_year: Költség az első évben
         currency: €
+        feasibility: Megvalósíthatóság
+        feasible: Megvalósítható
         not_feasible: Nem kivitelezhető
+        undefined: Határozatlan
         valuation_finished: Az értékelés befejeződött
         time_scope: Időtartam
         internal_comments: Belső hozzászólások
         responsibles: Felelősségek
         assigned_admin: Hozzárendelt admin
+        assigned_valuators: Hozzárendelt értékelők
       edit:
+        dossier: Dosszié
         price_html: Ár ( %{currency} )
         price_first_year_html: Költség az első évben ( %{currency} )
         currency: €
+        price_explanation_html: Ár magyarázat
+        feasibility: Megvalósíthatóság
+        feasible: Megvalósítható
         not_feasible: Nem kivitelezhető
+        undefined_feasible: Függőben
         feasible_explanation_html: Megvalósíthatósági magyarázat
         valuation_finished: Az értékelés befejeződött
         time_scope_html: Időtartam
         internal_comments_html: Belső hozzászólások
+        save: Módosítások mentése
       notice:
         valuate: Dosszié frissítve
 ...

@@ -3,9 +3,21 @@ hu:
   moderation:
     comments:
       index:
+        block_authors: Szerzők blokkolása
+        confirm: Biztos benne?
+        filter: Szűrő
+        filters:
+          all: Minden
+          pending_flag_review: Függőben
+          with_ignored_flag: Megtekintettnek jelölve
         headers:
           comment: Hozzászólás
+          moderate: Moderálás
+        hide_comments: Megjegyzések elrejtése
+        ignore_flags: Megtekintettnek jelölés
+        order: Sorrend
         orders:
+          flags: A legtöbbet megjelölt
           newest: Legújabb
         title: Hozzászólások
     dashboard:
@@ -13,26 +25,96 @@ hu:
         title: Moderálás
     debates:
       index:
+        block_authors: Szerzők blokkolása
+        confirm: Biztos benne?
+        filter: Szűrő
+        filters:
+          all: Minden
+          pending_flag_review: Függőben
+          with_ignored_flag: Megtekintettnek jelölve
         headers:
           debate: Vita
+          moderate: Moderálás
+        hide_debates: A viták elrejtése
+        ignore_flags: Megtekintettnek jelölés
+        order: Sorrend
         orders:
           created_at: Legújabb
+          flags: A legtöbbet megjelölt
         title: Viták
     header:
       title: Moderálás
     menu:
       flagged_comments: Hozzászólások
       flagged_debates: Viták
+      flagged_investments: Beruházások költségvetése
       proposals: Javaslatok
+      proposal_notifications: Javaslat értesítések
+      users: Felhasználók letiltása
     proposals:
       index:
+        block_authors: Szerzők blokkolása
+        confirm: Biztos benne?
+        filter: Szűrő
+        filters:
+          all: Minden
+          pending_flag_review: Függőben lévő áttekintés
+          with_ignored_flag: Megtekintettnek jelölés
         headers:
+          moderate: Moderálás
           proposal: Javaslat
+        hide_proposals: Javaslatok elrejtése
+        ignore_flags: Megtekintettnek jelölés
+        order: Rendezés
+        orders:
+          created_at: Legfrissebb
+          flags: A legtöbbet megjelölt
         title: Javaslatok
+    budget_investments:
+      index:
+        block_authors: Szerzők blokkolása
+        confirm: Biztos benne?
+        filter: Szűrő
+        filters:
+          all: Minden
+          pending_flag_review: Függőben
+          with_ignored_flag: Megtekintettnek jelölve
+        headers:
+          moderate: Moderálás
+          budget_investment: Költségvetési beruházás
+        hide_budget_investments: A költségvetési beruházások elrejtése
+        ignore_flags: Megtekintettnek jelölés
+        order: Rendezés
+        orders:
+          created_at: Legfrissebb
+          flags: A legtöbbet megjelölt
+        title: Beruházások költségvetése
     proposal_notifications:
       index:
+        block_authors: Szerzők blokkolása
+        confirm: Biztos benne?
+        filter: Szűrő
+        filters:
+          all: Minden
+          pending_review: Függőben lévő áttekintés
+          ignored: Megtekintettnek jelölés
+        headers:
+          moderate: Moderálás
+          proposal_notification: Javaslat értesítések
+        hide_proposal_notifications: Javaslatok elrejtése
+        ignore_flags: Megtekintettnek jelölés
+        order: Rendezés
+        orders:
+          created_at: Legfrissebb
+          moderated: Moderált
         title: Javaslat értesítések
     users:
       index:
         hidden: Zárolt
+        hide: Elrejt
+        search: Keresés
+        search_placeholder: e-mail vagy a felhasználó neve
+        title: Felhasználók letiltása
+      notice_hide: A felhasználó letiltva. A felhasználó vitáinak és észrevételeinek
+        mindegyike el van rejtve.
 ...

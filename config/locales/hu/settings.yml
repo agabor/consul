@@ -119,6 +119,8 @@ hu:
         mutatnak be, amelyek rájuk vonatkoznak, és amelyekről meg szeretnék osztani
         nézeteiket másokkal
       polls: Szavazás
+      polls_description: A polgárok szavazásai olyan részvételi mechanizmusok, amelyek
+        révén a szavazati joggal rendelkező állampolgárok közvetlen döntéseket hozhatnak
       signature_sheets: Aláírási lapok
       signature_sheets_description: Lehetővé teszi, hogy az adminisztrációs panel
         aláírásait a helyszínen gyűjtsék össze a Résztvevő Költségvetések javaslataival

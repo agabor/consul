@@ -1,8 +1,102 @@
 ---
 hu:
   mailers:
+    no_reply: Ez az üzenet olyan e-mail címről érkezett, amely nem fogad válaszokat.
+    comment:
+      hi: Szia
+      new_comment_by_html: <b> %{commenter} </b> új hozzászólást írt
+      subject: Valaki megjegyzést fűzött a (z) %{commentable}-hoz
+      title: Új megjegyzés
+    config:
+      manage_email_subscriptions: Ha meg szeretné szakítani az e-mailek fogadását,
+        módosítsa beállításait
+    email_verification:
+      click_here_to_verify: ez a link
+      instructions_2_html: Ez az e-mail ellenőrzi fiókját <b> %{document_type} %{document_number}
+        </b> . Ha ezek nem tartoznak önhöz, kérjük, ne kattintson az előző hivatkozásra,
+        és hagyja figyelmen kívül ezt az e-mailt.
+      instructions_html: 'A felhasználói fiók ellenőrzésének befejezéséhez kattintson
+        ide: %{verification_link}.'
+      subject: Erősítsd meg az e-mail címed
+      thanks: Nagyon szépen köszönjük.
+      title: Erősítse meg fiókját a következő linken
+    reply:
+      hi: Szia
+      new_reply_by_html: <b> %{commenter} </b> új választ írt a hozzászólására
+      subject: Valaki válaszolt a megjegyzésére
+      title: Új válasz a megjegyzésére
+    unfeasible_spending_proposal:
+      hi: Kedves felhasználó,
+      new_html: 'Mindezek mellett arra kérjük Önt, hogy dolgozzon ki egy <strong>
+        új javaslatot </strong> amely finomítja a folyamat feltételeit. Ezt megteheti
+        a következő linken: %{url} .'
+      new_href: új beruházási projekt
+      sincerely: Üdvözlettel
+      sorry: Sajnálljuk a kellemetlenséget és ismét köszönjük a felbecsülhetetlen
+        értékű részvételét.
+      subject: A (z) " %{code} " beruházási projektje kivitelezhetetlennek lett jelölve.
     proposal_notification_digest:
+      info: Itt látja azokat az új értesítéseket, amelyeket a %{org_name} által támogatott
+        javaslatok szerzői publikáltak.
+      title: Javaslat értesítések a (z) %{org_name}-ban
+      share: Javaslat megosztása
+      comment: Hozzászólás javaslat
+      unsubscribe: Ha nem akar javaslat értesítést kapni, látogasson el a (z) %{account}
+        címre és távolítsa el a jelölést a "Javaslat értesítések összefoglalásának
+        fogadása" mellől.
       unsubscribe_account: Fiókom
     direct_message_for_receiver:
+      subject: Új privát üzenetet kaptál
+      reply: Válasz %{sender}-nak
+      unsubscribe: Ha nem szeretne közvetlen üzeneteket kapni, látogasson el a (z)
+        %{account} címre, és távolítsa el a jelölést a "Közvetlen üzenetekről szóló
+        e-mailek fogadása" mellől.
       unsubscribe_account: Fiókom
+    direct_message_for_sender:
+      subject: Új privát üzenetet küldött
+      title_html: 'Új privát üzenetet küldött <strong>%{receiver}</strong>-nak a következő
+        tartalommal:'
+    user_invite:
+      ignore: Ha nem kérte ezt a meghívót, ne aggódjon, figyelmen kívül hagyhatja
+        ezt az e-mailt.
+      text: 'Köszönjük, hogy csatlakozni szeretne a %{org}-hoz! Néhány másodperc múlva
+        részt vehet benne, csak töltse ki az alábbi űrlapot:'
+      thanks: Nagyon szépen köszönjük.
+      title: Üdvözöljük a (z) %{org}-ban
+      button: Regisztáció befejezése
+      subject: Meghívó a (z) %{org_name}-ba
+    budget_investment_created:
+      subject: Köszönjük, hogy létrehozott egy befektetést!
+      title: Köszönjük, hogy létrehozott egy befektetést!
+      intro_html: Hello <strong>%{author}</strong> ,
+      text_html: Köszönjük, hogy létrehozta a <strong>%{investment}</strong> beruházását
+        a <strong>%{budget}</strong> közösségi költségvetéshez.
+      follow_html: Tájékoztatjuk Önt arról, hogy a folyamat miként halad előre, amit
+        a <strong> %{link} </strong> is követhet.
+      follow_link: Közösségi költségvetés
+      sincerely: Üdvözlettel,
+      share: Oszd meg a projekted
+    budget_investment_unfeasible:
+      hi: Kedves felhasználó,
+      new_html: 'Mindezek mellett arra kérjük Önt, hogy dolgozzon ki egy <strong>
+        új befektetést </strong> amelybenfinomítja a folyamat feltételeit. Ezt megteheti
+        a következő linken: %{url} .'
+      new_href: új beruházási projekt
+      sincerely: Üdvözlettel
+      sorry: Sajnálljuk a kellemetlenséget és ismét köszönjük a felbecsülhetetlen
+        értékű részvételét.
+      subject: A (z) " %{code} " beruházási projektje kivitelezhetetlennek lett jelölve.
+    budget_investment_selected:
+      subject: A (z) "%{code}" beruházási projektet kiválasztásra került
+      hi: Kedves felhasználó,
+      share: Kezdjen szavazatokat gyűjteni, ossza meg beruházási projektjét a közösségi
+        hálózatokon. A megosztás elengedhetetlen ahhoz, hogy megvalósuljon.
+      share_button: Ossza meg a beruházási projektjét
+      thanks: Köszönjük a részvételt.
+      sincerely: Üdvözlettel
+    budget_investment_unselected:
+      subject: A (z) "%{code}" beruházási projektet nincs kiválasztva
+      hi: Kedves felhasználó,
+      thanks: Köszönjük a részvételt.
+      sincerely: Üdvözlettel
 ...

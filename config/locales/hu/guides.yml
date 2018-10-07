@@ -1,18 +1,25 @@
+---
 hu:
   guides:
-    title: "Do you have an idea for %{org}?"
-    subtitle: "Choose what you want to create"
+    title: Van ötlete a %{org} számára?
+    subtitle: Válassza ki, mit szeretne létrehozni
     budget_investment:
-      title: "An investment project"
-      feature_1_html: "Ideas of how to spend part of the <strong>municipal budget</strong>"
-      feature_2_html: "Investment projects are accepted <strong>between January and March</strong>"
-      feature_3_html: "If it receives supports, it's viable and municipal competence, it goes to voting phase"
-      feature_4_html: "If the citizens approve the projects, they become a reality"
-      new_button: I want to create a budget investment
+      title: Egy beruházási projekt
+      feature_1_html: Ötletek arról, hogyan költhetnénk el <strong> önkormányzati
+        költségvetés </strong> egy részét
+      feature_2_html: Befektetési projektek elfogadása <strong> január és március
+        között </strong>
+      feature_3_html: Ha támogatást kap, életképes és az önkormányzati kompetenciához
+        tartozik, akkor a szavazási szakaszba kerül
+      feature_4_html: Ha a polgárok jóváhagyják a projekteket, az megvalósításra kerül
+      new_button: Szeretnék költségvetési befektetést létrehozni
     proposal:
-      title: "A citizen proposal"
-      feature_1_html: "Ideas about any action the City Council can take"
-      feature_2_html: "Need <strong>%{votes} supports</strong> in %{org} for go to voting"
-      feature_3_html: "Activate at any time, you have <strong>a year</strong> to get the supports"
-      feature_4_html: "If approved in a vote, the City Council accepts the proposal"
-      new_button: I want to create a proposal
+      title: Polgári javaslat
+      feature_1_html: Ötletek a városi tanács által megtett intézkedésekről
+      feature_2_html: <strong> %{votes} támogatásra </strong> van szüksége a %{org}-nál
+        szavazásra bocsájtáshoz
+      feature_3_html: Aktiválja bármikor, <strong> egy éve </strong> van hogy megkapja
+        a támogatást.
+      feature_4_html: Ha a szavazást jóváhagyják, a városi tanács elfogadja a javaslatot
+      new_button: Szeretnék javaslatot készíteni
+...

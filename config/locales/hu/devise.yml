@@ -14,7 +14,6 @@ hu:
       timeout: A munkafolyamat lejárt. Újboli bejelentkezés szükséges.
       unauthenticated: A folytatáshoz bejelentkezés szükséges.
       unconfirmed: A folytatáshoz az email cím megerősítése szükséges.
-      invalid_token: Hibás bejelentkező token.
     mailer:
       confirmation_instructions:
         subject: Email cím megerősítés
@@ -34,8 +33,6 @@ hu:
       destroyed: Felhasználói fiók törölve. Reméljük, még visszatér hozzánk.
       signed_up: Sikeres regisztráció.
       updated: Sikeres fiók módosítás.
-      inactive_signed_up: Sikeres regisztráció, azonban még a bejelentkezés nem lehetséges,
-        mert a felhasználói fiók %{reason}.
     sessions:
       signed_in: Sikeres bejelentkezés.
       signed_out: A kijelentkezés sikeres.

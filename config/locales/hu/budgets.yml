@@ -2,16 +2,24 @@
 hu:
   budgets:
     index:
+      title: Közösségi költségvetések
       section_header:
+        title: Közösségi költségvetések
         all_phases: Összes fázis megtekintése
+      see_results: Eredmények
     investments:
       index:
         title: Közösségi költségvetés
+        search_form:
+          button: Keresés
+          title: Keresés
         orders:
           random: véletlen
           confidence_score: legmagasabbra értékelt
           price: ár szerint
       show:
+        price_explanation: Ár magyarázat
+        title: Beruházási projekt
         supports: Támogatások
         votes: szavazatok
         price: Ár
@@ -21,6 +29,8 @@ hu:
         supports:
           one: 1 támogatás
           other: '%{count} támogatás'
+    show:
+      see_results: Eredmények
     results:
       link: Eredmények
       price: Ár
