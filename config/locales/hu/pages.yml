@@ -92,31 +92,30 @@ hu:
       title: Adatvédelmi irányelvek
       subtitle: AZ ADATVÉDELEMRE VONATKOZÓ INFORMÀCIÒK
       info_items:
-        '0':
-          text: A nyílt kormányzati portálon elérhető információk névtelenek.
-        '1':
-          text: A nyitott kormányzati portálon szereplő szolgáltatások használatához
-            a felhasználónak regisztrálnia kell és meg kell adnia a személyes adatait,
-            ami az adott regisztráció típushoz szükséges.
-        '2':
-          text: 'A megadott adatokat a városi tanács fogalmazza meg és dolgozza fel
-            az alábbi iratok leírásával összhangban:'
-        '3':
-          subitems:
-          - field: 'Fájl név:'
-            description: A FÁJL NEVE
-          - field: 'A fájl célja:'
-            description: A résztvevő folyamatok irányítása a résztvevő személyek képzettségének
-              ellenőrzésére, valamint a polgári közösségi folyamatokból származó eredmények
-              számszerű és statisztikai számbavétele.
-          - field: 'Az fájlért felelős intézmény:'
-            description: A FÁJLÉRT FELELŐS INTÉZMÉNY
-        '5':
-          text: Általános elvként ez a weboldal nem osztja meg és nem hozza nyilvánosságra
-            a megszerzett információkat, kivéve ha azt a felhasználó engedélyezte,
-            vagy az információt az igazságügyi hatóság, az ügyészség vagy a bírósági
-            rendőrség vagy a A személyes adatok védelméről szóló, december 15-i 15/1999
-            szervezeti törvény 11. cikke.
+      - text: A nyílt kormányzati portálon elérhető információk névtelenek.
+      - text: A nyitott kormányzati portálon szereplő szolgáltatások használatához
+          a felhasználónak regisztrálnia kell és meg kell adnia a személyes adatait,
+          ami az adott regisztráció típushoz szükséges.
+      - text: 'A megadott adatokat a városi tanács fogalmazza meg és dolgozza fel
+          az alábbi iratok leírásával összhangban:'
+      - subitems:
+        - field: 'Fájl név:'
+          description: A FÁJL NEVE
+        - field: 'A fájl célja:'
+          description: A résztvevő folyamatok irányítása a résztvevő személyek képzettségének
+            ellenőrzésére, valamint a polgári közösségi folyamatokból származó eredmények
+            számszerű és statisztikai számbavétele.
+        - field: 'Az fájlért felelős intézmény:'
+          description: A FÁJLÉRT FELELŐS INTÉZMÉNY
+      - text: The interested party may exercise the rights of access, rectification,
+          cancellation and opposition, before the responsible body indicated, all
+          of which is reported in compliance with article 5 of the Organic Law 15/1999,
+          of December 13, on the Protection of Data of Character Personal.
+      - text: Általános elvként ez a weboldal nem osztja meg és nem hozza nyilvánosságra
+          a megszerzett információkat, kivéve ha azt a felhasználó engedélyezte, vagy
+          az információt az igazságügyi hatóság, az ügyészség vagy a bírósági rendőrség
+          vagy a A személyes adatok védelméről szóló, december 15-i 15/1999 szervezeti
+          törvény 11. cikke.
     accessibility:
       title: Kisegítő lehetőségek
       description: "A webes akadálymentesítés arra utal, hogy minden ember hozzáférhet

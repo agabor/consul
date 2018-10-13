@@ -15,7 +15,9 @@ hu:
         publish_comment: Hozzászólás közzététele
       form:
         phase_not_open: Ez a szakasz nem nyitott
+        login_to_comment: A hozzászóláshoz %{signin} vagy %{signup}.
         signin: Bejelentkezés
+        signup: Regisztráció
       index:
         title: Hozzászólások
         comments_about: Hozzászólások
@@ -58,6 +60,8 @@ hu:
         filter: Szűrő
         filters:
           open: Nyitott folyamatok
+          next: Következő
+          past: Múltbeli
         no_open_processes: Nincsenek nyitott folyamatok
         no_next_processes: Nincsenek tervezett folyamatok
         no_past_processes: Nincsenek múltbeli folyamatok
@@ -100,19 +104,25 @@ hu:
         answer_question: Válasz beküldése
         next_question: Következő kérdés
         first_question: Az első kérdés
+        share: Megosztás
         title: Együttműködésen alapuló jogalkotási folyamat
       participation:
         phase_not_open: Ez a szakasz nem nyitott
         organizations: A szervezetek nem vehetnek részt a vitában
         signin: Bejelentkezés
+        signup: Regisztráció
         unauthenticated: A részvételhez %{signin} vagy %{signup} kell.
         verified_only: Csak ellenőrzött felhasználók vehetnek részt, %{verify_account}
           .
+        verify_account: ellenőrizze fiókját
         debate_phase_not_open: A vitafázis befejeződött és a válaszokat többé nem
           fogadják el
     shared:
+      share: Megosztás
       share_comment: Szóljon hozzá %{version_name}-hez a %{process_name} folyamatból
     proposals:
+      form:
+        tags_label: Kategóriák
       not_verified: A szavazási javaslatokhoz %{verify_account} .
       closed: Ez a folyamat lezárult és nem fogadhat szavazatokat.
 ...

@@ -1,15 +1,23 @@
 ---
 hu:
   devise:
+    password_expired:
+      expire_password: A jelszó lejárt
+      change_required: A jelszava lejárt
+      change_password: Változtassa meg a jelszavát
+      new_password: Új jelszó
+      updated: A jelszó sikeresen frissült
     confirmations:
       confirmed: Fiók megerősítve. Bejelentkezve a felhasználói fiókba.
       send_instructions: A megadott címre egy email érkezik a megerősítő linkkel.
       send_paranoid_instructions: Ha az email cím már létezik az adatbázisban, egy
         emailt küldtünk a további teendőkkel a fiók megerősítéséhez.
     failure:
+      already_authenticated: Már be van jelentkezve.
       inactive: A fiók még nincs aktiválva.
       invalid: Hibás %{authentication_keys} vagy jelszó.
       locked: A fiók zárolva lett.
+      last_attempt: Még egy próbálkozása van a fiók letiltása előtt.
       not_found_in_database: Hibás %{authentication_keys} vagy jelszó.
       timeout: A munkafolyamat lejárt. Újboli bejelentkezés szükséges.
       unauthenticated: A folytatáshoz bejelentkezés szükséges.
@@ -25,13 +33,26 @@ hu:
       failure: 'Nem sikerült azonosítani %{kind} fiókkal, az ok: "%{reason}".'
       success: Sikeres azonosítás %{kind} fiókkal.
     passwords:
+      no_token: Az oldal nem érhető el, kivéve a jelszó-visszaállító hivatkozást.
+        Ha jelszó-visszaállító linken keresztül érkezett, ellenőrizze, hogy az URL
+        teljes-e.
       send_instructions: A megadott címre egy email érkezik hamarosan a további teendőkről.
       send_paranoid_instructions: Ha az email cím már létezik az adatbázisban, egy
         jelszó-visszaállító emailt küldtünk a megadott címre.
       updated: A jelszó megváltozott. Bejelentkezve a felhasználói fiókba
+      updated_not_active: A jelszó sikeresen megváltozott.
     registrations:
       destroyed: Felhasználói fiók törölve. Reméljük, még visszatér hozzánk.
       signed_up: Sikeres regisztráció.
+      signed_up_but_inactive: A regisztráció sikeres volt, de nem tud bejelentkezni,
+        mert fiókját nem aktiválta.
+      signed_up_but_locked: A regisztráció sikeres volt, de nem tud bejelentkezni,
+        mert fiókja zárolva van.
+      signed_up_but_unconfirmed: Egy hitelesítési linket tartalmazó üzenetet küldtünk
+        Önnek. A fiók aktiválásához kattintson erre a linkre.
+      update_needs_confirmation: Fiókja sikeresen frissült; azonban meg kell erősítenünk
+        az új e-mail címét. Kérjük, ellenőrizze az e-mail fiókját, és kattintson a
+        linkre az új e-mail cím megerősítéséhez.
       updated: Sikeres fiók módosítás.
     sessions:
       signed_in: Sikeres bejelentkezés.
@@ -47,10 +68,13 @@ hu:
   errors:
     messages:
       already_confirmed: már meg van erősítve
+      confirmation_period_expired: Az ellenőrzésnek %{period}-on belül kell megtörténnie;
+        kérjük, hogy ismételje meg.
       expired: lejárt, igényelj egy újat
       not_found: nem található
       not_locked: nincs zárolva
       not_saved:
         one: '1 hiba miatt %{resource} mentése nem lehetséges:'
         other: '%{count} hiba miatt %{resource} mentése nem lehetésges:'
+      equal_to_current_password: másnak kell lennie, mint az aktuális jelszó.
 ...

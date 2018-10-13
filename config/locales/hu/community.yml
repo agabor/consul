@@ -3,23 +3,67 @@ hu:
   community:
     sidebar:
       title: Közösség
+      description:
+        proposal: Vegyen részt a javaslat felhasználói közösségében.
+        investment: Részvétel a beruházás felhasználói közösségében.
+      button_to_access: Hozzáférés a közösséghez
     show:
+      title:
+        proposal: Javaslat közösség
+        investment: Költségvetési befektetési közösség
+      description:
+        proposal: Részvétel ezen javaslat közösségében. Az aktív közösség segíthet
+          a javaslat tartalmának javításában és a terjesztés ösztönzésében, hogy több
+          támogatást kapjon.
+        investment: Részvétel a költségvetési beruházás közösségében. Egy aktív közösség
+          segíthet a költségvetési beruházások tartalmának javításában és a terjesztés
+          növelésében, hogy több támogatást kapjon.
+      create_first_community_topic:
+        first_theme_not_logged_in: Nincs elérhető probléma, vegyen részt az első létrehozásában.
+        first_theme: Hozzon létre az első közösségi témát
+        sub_first_theme: Téma létrehozásához %{sign_in} vagy %{sign_up} kell.
+        sign_in: Bejelentkezés
+        sign_up: Regisztrálció
+      tab:
+        participants: Résztvevők
       sidebar:
+        participate: Részvétel
         new_topic: Téma létrehozása
       topic:
+        edit: Téma szerkesztése
         destroy: A téma törlése
         comments:
           one: 1 hozzászólás
           other: '%{count} hozzászólás'
       author: Szerző
+      back: 'Vissza: %{community} %{proposal}'
     topic:
+      create: Hozzon létre egy témát
+      edit: Téma szerkesztése
       form:
         topic_title: Cím
+        topic_text: Kezdeti szöveg
         new:
           submit_button: Téma létrehozása
+        edit:
+          submit_button: Téma szerkesztése
         create:
           submit_button: Téma létrehozása
+        update:
+          submit_button: Téma frissítése
       show:
         tab:
           comments_tab: Hozzászólások
+      sidebar:
+        recommendations_title: Ajánlások egy téma létrehozására
+        recommendation_one: A téma címét vagy egy egész mondatot ne írjon nagybetűkkel.
+          Az interneten, ez kiabálást jelent, és senki sem szereti ha kiabálnak vele.
+        recommendation_two: Minden olyan témát vagy megjegyzést, amely illegális cselekvésre
+          buzdít, törlésre kerül, valamint azok, amelyek a témát szabotálják, minden
+          más megengedett.
+        recommendation_three: Élvezze ezt a helyet, a hangokat, amelyek betöltik,
+          ez az öné is.
+  topics:
+    show:
+      login_to_comment: A hozzászóláshoz %{signin} vagy %{signup}.
 ...

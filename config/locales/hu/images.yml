@@ -17,4 +17,9 @@ hu:
         notice: A kép sikeresen törölve.
         alert: Nem lehet törölni a képet.
         confirm: Biztosan törli a képet? Ez a művelet nem visszavonható!
+    errors:
+      messages:
+        in_between: '%{min} és %{max} között kell lennie'
+        wrong_content_type: 'a (z) %{content_type} tartalomtípus nem egyezik az elfogadott
+          tartalomtípusokkal: %{accepted_content_types}'
 ...
