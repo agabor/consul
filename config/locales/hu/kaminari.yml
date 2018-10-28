@@ -17,6 +17,7 @@ hu:
       current: Ön az oldalon van
       first: Első
       last: Utolsó
+      next: Következő
       previous: Előző
       truncate: '&hellip;'
 ...

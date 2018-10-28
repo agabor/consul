@@ -25,6 +25,7 @@ hu:
       change_user: Felhasználó módosítása
       document_number_label: 'Dokumentum szám:'
       document_type_label: 'Dokumentum típus:'
+      email_label: 'Email:'
       identified_label: 'Azonosítva:'
       username_label: 'Felhasználónév:'
     check: Dokumentum ellenőrzése
@@ -70,6 +71,7 @@ hu:
     menu:
       create_proposal: Javaslat létrehozása
       print_proposals: Javaslatok nyomtatása
+      support_proposals: Javaslatok támogatása
       create_spending_proposal: Kiadási javaslat létrehozása
       print_spending_proposals: Nyomtasson kiadási javaslatokat
       support_spending_proposals: Támogasson kiadási javaslatokat
@@ -82,6 +84,7 @@ hu:
     permissions:
       create_proposals: Javaslatok létrehozása
       debates: Vegyen részt a vitákban
+      support_proposals: Javaslatok támogatása
       vote_proposals: Szavazási javaslatok
     print:
       proposals_info: 'Hozzon létre javaslatot a http: //url.consul címen'
@@ -95,6 +98,8 @@ hu:
       create_proposal: Javaslat létrehozása
       print:
         print_button: Nyomtatás
+      index:
+        title: Javaslatok támogatása
     budgets:
       create_new_investment: Hozzon létre költségvetési beruházásokat
       print_investments: Költségvetési beruházások nyomtatása
@@ -106,25 +111,27 @@ hu:
     budget_investments:
       alert:
         unverified_user: A felhasználó nem ellenőrzött
+      create: Költségvetés beruházás létrehozása
       filters:
         heading: Koncepció
         unfeasible: Kivitelezhetetlen beruházás
       print:
         print_button: Nyomtatás
       search_results:
-        one: tartalmazza a következő kifejezést '%{search_term}'
-        other: tartalmazza a következő kifejezést '%{search_term}'
+        one: tartalmazza a "%{search_term}" kifejezést
+        other: tartalmazzák a "%{search_term}" kifejezést
     spending_proposals:
       alert:
         unverified_user: A felhasználó nem ellenőrzött
       create: Kiadási javaslat létrehozása
       filters:
+        unfeasible: Nem megvalósítható beruházási projektek
         by_geozone: 'Beruházási projektek a következő területen: %{geozone}'
       print:
         print_button: Nyomtatás
       search_results:
-        one: tartalmazza a következő kifejezést '%{search_term}'
-        other: tartalmazza a következő kifejezést '%{search_term}'
+        one: tartalmazza a "%{search_term}" kifejezést
+        other: tartalmazzák a "%{search_term}" kifejezést
     sessions:
       signed_out: Sikeresen kijelentkezett.
       signed_out_managed_user: A felhasználói munkamenet sikeresen befejezve.
